@@ -17,7 +17,7 @@ jobs:
             substituters = https://cache.garnix.io https://cache.nixos.org/
       - name: Build the website (Nix) 🔧
         run: |
-          nix build -j 4
+          nix build -j 4 --arg allow-broken-links 1
       - name: Deploy to gh-pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:

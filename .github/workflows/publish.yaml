@@ -9,18 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v17
-        with:
-          extra_nix_config: |
-            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-            trusted-public-keys = cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g= cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=
-            substituters = https://cache.garnix.io https://cache.nixos.org/
-      - name: Build the website (Nix) 🔧
+      - name: Build the website (Docker) 🔧
         run: |
-          nix build -j 4 --arg allow-broken-links 1
+          mkdir output.docker
+          docker run \
+            -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 \
+            --tmpfs /tmp \
+            -v $PWD:/data \
+            sridca/emanote emanote -L "/data" gen /data/output.docker --allow-broken-links
+          cp -r output.docker output
       - name: Deploy to gh-pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./result/
+          publish_dir: ./output/
           # cname: yoursite.com

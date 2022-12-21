@@ -1,5 +1,9 @@
-# Emanote Template
+---
+tags: [introduction]
+---
 
-A Git template repository of Markdown notes that are automatically rendered using [Emanote] and hosted on [[GitHub Pages]], while enabling editing in the likes of [Visual Studio Code](https://emanote.srid.ca/start/resources/editors/vscode). For details, see https://github.com/srid/emanote-template.
+# Ingram's Zettelkasten
 
-[Emanote]: https://emanote.srid.ca/
+Welcome to my personal digital garden that stores thousands of notes regarding
+variety of topics! All those notes are made with
+[Zettelkasten](202110160303.md)# method in mind. Enjoy your time here!

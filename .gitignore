@@ -1,2 +1,8 @@
+.neuron/
+.nojekyll
+.obsidian/
+.trash/
+.zettel-notes/
+.zk/
 .direnv
 /result

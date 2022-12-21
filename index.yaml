@@ -1,24 +1,46 @@
-# For documentation and available settings, see
-# https://github.com/srid/emanote/blob/master/default/index.yaml
-
 page:
-  siteTitle: Emanote Template
+  siteTitle: Ingram's Zettelkasten
+
+  headHtml: |
+    <snippet var="js.highlightjs" />
+    <snippet var="js.mermaid" />
+    <snippet var="js.mathjax" />
+
+  editBaseUrl: https://github.com/ingram1107/ingram1107.github.io/edit/master
+
+js:
+  highlightjs: |
+    <!-- highlight.js -->
+    <with var="js">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/${value:highlightjs-ver}/styles/hybrid.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/${value:highlightjs-ver}/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    </with>
+
+  highlightjs-ver: 11.7.0
+
+  mermaid: |
+    <!-- mermaid.js -->
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: false });
+      mermaid.init(undefined,document.querySelectorAll(".mermaid"));
+    </script>
+
+  mathjax: |
+    <script>
+      window.MathJax = {
+        startup: {
+          ready: () => {
+            MathJax.startup.defaultReady();
+          }
+        }
+      };
+    </script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 template:
-  theme: red
+  theme: indigo
 
-  # You can add your own variables here, like editBaseUrl.
-  # See after-note.tpl to see where editBaseUrl gets used.
-  editBaseUrl: https://github.com/srid/emanote-template/edit/master
-
-  # Uncomment this to get neuron-style pages
-  # name: /templates/layouts/note
-  # layout:
-  #   note:
-  #     containerClass: container mx-auto max-w-screen-lg
-
-  sidebar:
-    collapsed: false
-
-  # If you are hosting on GitLab Pages, you may want to remove this.
   urlStrategy: pretty

@@ -164,4 +164,69 @@ from the ages before us.
 
 ## The Digital Marketplace: Winner Takes All
 
+The advertisers siege the opportunity and commercialise the Internet and turn it
+into a centralised strip mall instead of a true peer-to-peer marketplace. In
+online commerce, the author argued, it's mostly a few companies selling to many,
+and many people selling to the very few due to highly personalised
+recommendation engines. Looking at the music industry as an example. Although a
+website could host infinite music, in practice, only those popular can share the
+spoils. Comparing to the days of physical albums where 80% of sales came from
+the top 20%, on iTunes, bottom 94% sell fewer than 100 copies each. Instead of
+working towards equity, Internet commerce exacerbates the gap. The author called
+this as **power-law dynamics** as the statistics based on the data mentioned
+will look like a steep slope upward. In other word, it is winner-takes-all
+scenario.
+
+The positive reinforcement from personal choice further encourage power-law
+dynamics due to personialised recommendation engine which is essentially a
+feedback loop. A hit on a film is better than no hit at all, because the former
+will more likely get recommended to other people. This is what happen when human
+is removed from the equation. Some said that this is all due to freedom of
+choice. However, if we look deeper, they are an expression of one aspect of
+human nature, amplified by machines at the expense of all the others.
+
+Even if the corporate actively promotes the underdog in its platform, the effect
+of current digital marketing dogma causes the user to be overwhelmed by options
+that they won't be able to pick anything at all.
+
+## The Economy of Likes
+
+## The Big Data Play
+
+## Sharing Economics: Getting Humans Back "On The Books"
+
+## The Unemployement Solution
+
+We shouldn't fear about unemployement. In fact, it is better that we embrace it
+as the digital technologies allow us to have more leisure times. What we produce
+have already surplus our need, in a way that government and other authorities
+need to destroy those productivity in order to stablise the price of goods. Now,
+capitalists invented several things and market them as if they are useful where
+in fact they are not so that economy growth can continue albeit it is, in truth,
+a bubble. It also tries to justify the continuing wage labour practice to keep
+the workers in believing that they are selling their time for something
+valuable.
+
+To solve the unemployement issue, Rushkoff suggested that:
+1. Reduce work hour so that it leads to better economy, more free time, slower
+   pace, less carbon footprint, better mental health, and more community
+   engagement.
+2. Share productivity gains with workers instead of outphasing them in
+   corporate.
+3. Guarantee minimum income to guarantee a life of dignity, that is to have
+   adequate diet, housing, health services, and educational opportunity.
+4. Provide public jobs, according to worker's abilities, to redirect labour to
+   work on areas that need attention especially those that focus on value
+   creation.
+
+The third solution may disincentivises worker from working longer work hours,
+but the difference made to the labour market is hardly significant.
+
+The author said that digital society is digital in the sense that we don't shy
+away from reprogram the previous assumption that we made in the industrial age.
+Instead, we strive to change the economy from the ground up in benefits of
+constructing human well-being. We should phase out the thinking of value
+extraction that depends on resource scarcity, and instead opt in the thinking
+value creation depends on productivity increase.
+
 [giang2013]: https://www.businessinsider.in/A-New-Report-Ranks-Americas-Biggest-Companies-Based-On-How-Quickly-Employees-Jump-Ship/articleshow/21354951.cms

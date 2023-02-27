@@ -191,11 +191,54 @@ that they won't be able to pick anything at all.
 
 ## The Economy of Likes
 
+The development of the digital technologies grow so quick, that nothing
+conventional value left from the customer can be extracted further. To maintain
+the illution of growth, social media companies come out with the alternative:
+use user engagements as the basis. Likes, views, reblogs, favourites etc. can be
+valuable information for market targeting from advertisers, and social media
+companies exploits this by making user engagement as the metrics instead of the
+real financial value growth.
+
+To avoid the inevitable drain of the engagements, the social media companies use
+every methods to get our attention, time and data in order to sell them to
+the big data market reserarch firms. This turns their customers into products.
+Not only that their users are increasing pressured to make posts that adhere to
+their corresponding bubbles, professional jobs are replaced by the metrics too.
+Such dehumanisation could be seen in music industry where the albums sale is
+less important that the media attention, especially degrading sensationalism,
+and concert ticket sale to the celebrity.
+
+> Nothing of value is created, but billions of dollars are made. (p. 37)
+
 ## The Big Data Play
+
+The big data technology is able to predict one's future decision by just
+comparing one data point or profile to everyone else data point or profile.
+Though people are not concern about metadata of our operations such as when the
+phone is called, its duration, the location, the places we went etc., these data
+are as valuable as to the private data such as the phone content and emails to
+the big data company. The more data point they have about you, the more accurate
+they can construct your profile.
+
+However, big data doesn't necessarily bring growth to the economy. It's still
+based on one past actions to make a likely prediction. The trend taken by the
+corporates are to replace research and development with big data, only to lose
+their competitive edge to their competitors as their competitors are likely use
+the same big data model.
 
 ## Sharing Economics: Getting Humans Back "On The Books"
 
-## The Unemployement Solution
+Though Jaron Lanier suggested joining the system by price tagging every personal
+information or property that we have, the author objected such view as it
+dehumanise the human more. The sharing economy model is build on top of the
+exploitation on the underpaid freelancers which otherwise could be an unemployed
+person and circumvention of heavy industry regulation. The final formula for
+sharing economy is to automate everything, it is to remove human from the
+equation. It is not the fact that technology is replacing the human, it is the
+nature of capital to remove the human from employment to reduce risk and
+gain profits.
+
+## The Unemployment Solution
 
 We shouldn't fear about unemployement. In fact, it is better that we embrace it
 as the digital technologies allow us to have more leisure times. What we produce
@@ -228,5 +271,98 @@ Instead, we strive to change the economy from the ground up in benefits of
 constructing human well-being. We should phase out the thinking of value
 extraction that depends on resource scarcity, and instead opt in the thinking
 value creation depends on productivity increase.
+
+# Chapter Two: The Growth Trap
+
+## Corporations Are Programs
+
+Corporates are expected to grow indefinitely when in reality, they should
+instead adapt to their surrounding, and act accordingly for their own survival.
+By asking the following four question, we can know the purpose of coprorations:
+1. What does the medium enhance or amplify?
+2. What does the medium make obsolete?
+3. What does the medium retrieve that had been obsoleted earlier?
+4. What does the medium "flip into " when pushed to the extreme?
+
+The corporation amplifies the power of the shareholders and the primacy of their
+capital. This is due to the main purpose of the corporations in preserve the
+aristocracies' wealth and social position by investing into the enterprise. The
+corporations make the local bazaar and their peer-to-peer value creation nature
+obsolete which also kill the incentive for innovations due to their monopoly
+nature. The only job for a corporation left is to extract value, which means
+there is no need for value exchange between parties. The result is
+[Imperialism](../202203051018.md), outlawing any form of value creation that is
+not under their control. Quite ironically, when a corporation is pushed to the
+extreme, it flips into a person. It entitles the rights that a normal person
+should have in order to benefit its investors. This means that corporation
+desires the right of personhood even though it works to remove human from the
+equation all the time.
+
+Growth by extracting is not sustainable. Once resources are drained, the
+corporation needs to move on to other places for value to be extracted for it
+might result in war or resistance. It favours expansion, but never
+consolidation, as it believes there is always new territories to be acquired.
+
+When it is harder to make money via value creation, earning from capitals is
+more favourable, which is the long term damage the economy growth. This is the
+reason country with high Gini coefficient tends to perform poorly in economic
+growth.
+
+## The Platform Monopoly
+
+There is a theory called creative destruction, in which a small startup with
+superior technologies will replace the old obsolete corporates with the cost of
+destroying traditional jobs and other companies, and take all of its
+predecessor's market share in a more complete way. In other words, it's about
+replacing a monopoly with a new monopoly. Traditional corporates may need
+government intervention to achieve monopoly by suppressing weaker competitors
+through legislation, but with digital advancement, the new competitors use
+algorithms as their trump card instead.
+
+Example like Uber place itself as merely a platform for car sharing, in which it
+outsources its liabilities to individual drivers. This allows Uber to not serve
+the public good, and instead place the market price as it pleases. To achieve
+complete monopoly, being a mere car sharing is not enough; it needs to have
+absolute control on the entire transportation sector. Such phenomenon is termed
+platform monopoly by the author.
+
+However, monopolies are not good for the economy. Their valuation will
+eventually erodes as there are nothing left to extract from.
+
+## Recoding the Corporation
+
+Instead of building up centralised platform, a decentralised, peer-to-peer
+alternative should be considered. Sidecar, a car-sharing company, provides a new
+way to do the business. Instead of price-fixing like Uber do, it asks drivers to
+set their own prices by negotiating with riders. Additionally, the rider might
+choose the same driver if they find their service to be satisfactory. The
+valuation of their company doesn't seem great, but growth is not a requirement
+for them. It is merely a side effect of doing a good business.
+
+## The Steady-State Enterprise
+
+A major technological revolution will go through five phases: *maturity* where
+the established companies from previous technological revolution plant seeds for
+new innovations, *irruption* where technological breakthrough happened and
+disruption of the previous technology and the industry that built around it,
+*turning point* when the economy become extremely unequal and forces government
+to intervene, then *synergy* in which the original technological revolution
+have wider adoption and become more accessible.
+
+Since neither populists from either political spectrum advocated for government
+intervention, in which the right populists blamed economic recession on
+government and left populists focus on mutual-aid, the author advocated that
+CEOs should intervene the economy by themselves with the following advices:
+1. Abandoned prioritising growth, but sustainability of business, and if
+   necessary, scale down the business in face of crisis.
+2. Adopt a hybrid strategy that retain some proprietary practices while open for
+   collaborations with expertises in other field.
+3. Convince the shareholders to prioritise corporate long-term interests or
+   distribute the shares among the employees. Sometimes, going private is a
+   viable option to get rid of stubborn shareholders.
+4. Going to not-for-profit model and retains the revenue solely for business
+   purposes.
+
+# Chapter Tree: Speed of Money
 
 [giang2013]: https://www.businessinsider.in/A-New-Report-Ranks-Americas-Biggest-Companies-Based-On-How-Quickly-Employees-Jump-Ship/articleshow/21354951.cms

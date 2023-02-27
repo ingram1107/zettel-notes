@@ -14,7 +14,7 @@ Hyougaki) which caused high unemployment nationwide in Japan. They are also
 referred by the term Employment Ice Age Generation (就職氷河期世代, Shuushoku
 Hyougaki Sedai) and Lost Generation (失われた世代, Ushinawareta Sedai).
 
-During the Employment Ice Age, the talent and job search ratio dropped below
+During the Employment Ice Age, the talent, and job search ratio dropped below
 0.60, accompanied by a sharp rise of unemployment rate to higher than 5%. It
 especially hit hard against young male employees as their unemployment rate
 reached 11.6% which is the highest since 1968. This resulted in a drastic
@@ -103,6 +103,55 @@ argued that it is due to the large amount of people who couldn't afford to pay
 their pension payment when they were young since they faced quite a hard time in
 employment.
 
+In spite of the predicament the Abandoned Generation faced, the Japanese
+government still pushing for increasing Good and Service Tax (GST) from 3% in
+1989 to 10% 2019. Lobbyists are pressuring the government to aim for GST
+increase to 19% in 2025, which is further supported by IMF for aiming 15% in
+2030. However, GST taxes the essential goods that are needed by the low income
+population, which is the majority of the Abandoned Generation reside in. Even if
+it is for good reason, it is basically a weak support weak scheme that in itself
+a negative reinforcement. A just tax structure should have the rich to support the
+weak. However, the lobbyists that support for an increase in GST, in turn oppose
+such increase in corporate tax, and opted for a decrease instead.
+
+The increasing fee to subscribe National Health Insurance (国民健康保険, Kokumin
+Kenko Hoken) due to ever increasing burdern from decreasing subsribers from
+agricultural industry and self-employed owners and increasing subscribers from
+seniors and part-time employees. The situation became evident as national
+average medical fee increased from ¥2,911 in 2000 to ¥5,869 in 2018, which is
+twice than in 2000. According to the 2018 survey, 28.6% Japanese from age 0 to
+78 subsribed to the Insurance, where a sizable minority from the Abondaned
+Generation (18.6% from age 35 to 39, 18.9% from age 40 to 44, and 20.0% from age
+45 to 49) form part of the statistics despite the increasing burden. Despite the
+fee increase, National Health Insurance still faces financial deficit. The
+likely trend, predicted by the author, will be to increase the subscriber fee
+which will deepen the predicament faced by the Abandoned Generation in their
+difficult financial situation.
+
+There is an estimation done in 2018 that 1.47 million people from Abandoned
+Generation that have to apply for Public Assistance (生活保護, Seikatsu Hogo) in
+order to satisfy their basic needs. Despite the fact, the Japanese government is
+working to lower the support of Public Assistance, reducing food, accommodation,
+fuel (winter related) subsidies, with addition of further budget reduction.
+
+According to the projection by National Institute of Population and Social
+Security Research (国立社会保証・人口問題研究所, Kokuritsu Shakai Hoshou Jinkou
+Mondai KenkyuuJo), the percentage of the population that never married will be
+30% for male and 20% for female in 2035, which might be the reality for the
+Abandoned Generation in the near future where there will be no child for them to
+burden their medical care. In another survey conducted in 2012 by Ministry of
+Internal Affairs and Communications (総務省, Soumu Shou), there are 2,399,000
+employees that also responsible for taking care of their parents. However, from
+2007 to 2012, there are 487,000 employees were forced to resign in order to take
+care for their parents, in which 80% of them are female. The mentioned
+statistics are important as the Japanese structure of social welfare system
+takes the assumption of there will be sufficient family care for the elderly.
+Such system, criticised by the author, is obviously not based on the ground. The
+birth population of Japan has been decreased from less than 1 million to less
+than 900 thousand in 2019. The Abandoned Generation is in the critical situation
+where they have to take the burden of family care while at the same time doesn't
+have child to support their future senior life.
+
 Not only does the Abandoned Generation suffered under disadvantageous economic
 condition, but also mental issues. Based on the statistics gathered by
 Federation of Inochi No Denwa (FIND, 日本いのちの電話連盟, Nihon Inochi No Denwa
@@ -120,3 +169,17 @@ mental issues and stress as the statistics barely improved on them.
 Among the people that lived in poverty, 19.4% of them are seniors, which is
 higher than average compare to international community. The author predicts that
 this percentage will reach 30% as the Abandoned Generation reaching the age.
+Moreover, around 1.58 million people who were unmarried, 45- to 54-year-old,
+and live with their parents in 2016 that were either unemployed, NEET, or
+contract workers, 310 thousands of them were relying on their parents to
+maintain basic needs. From age 35- to 44-year-old, there are 288 thousands
+people face the same issue. Worryingly, those same families have little
+financial resources to take care of their children and facing great risk of
+bankruptcy.
+
+The trend of the gig economy around the globe may even worsen the economic and
+mental situation of the Abandoned Generation as it doesn't guarantee employee
+benefits and is forced to pack into a tight time constraint to deliver services.
+There might be a chance for them to fight against the capital via collective
+bargaining through unionisation, but the author is pessimistic about the
+strength of the Japanese union.

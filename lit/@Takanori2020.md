@@ -6,6 +6,8 @@ date: 2022-07-15 22:03
 tags: [economy, socialism, japanese]
 ---
 
+# Who are the Abandoned Generation
+
 The Abandoned Generation (棄民世代, Kimin Sedai), defined by the author, is a
 group of people born between 1971 and 1984 which suffered greatly due to the
 burst of the Japanese Estate Price Bubble (バブル景気, Baburu Keiki or 平成景気,
@@ -14,23 +16,26 @@ Hyougaki) which caused high unemployment nationwide in Japan. They are also
 referred by the term Employment Ice Age Generation (就職氷河期世代, Shuushoku
 Hyougaki Sedai) and Lost Generation (失われた世代, Ushinawareta Sedai).
 
+# Their Situation
+
 During the Employment Ice Age, the talent, and job search ratio dropped below
 0.60, accompanied by a sharp rise of unemployment rate to higher than 5%. It
 especially hit hard against young male employees as their unemployment rate
 reached 11.6% which is the highest since 1968. This resulted in a drastic
 increase of freeter (フリーター, Furita, describe a group of people especially
 the youth who don't seek for a stable employment and instead work as a part-time
-when in need) and part-timers population. The loosing of the Temporary Staffing
-Services Law (労働者派遣法, Roudousha Dekenho) after the review in 1996 and
-2004, meaning more corporates are able to hire great proportion of part-timers
-in order to reduce their manpower costs, resulted in large amount of workers who
-otherwise qualified for a full time employment, get employed as a part-timer
-instead. From 1999 to 2019, the percentage of part-timers in the total female
-and male workforces had increased from 39.8% to 56.2% and 11.1% to 22.4%
-respectively. Note on the differences between the female and male statistics.
-Peculiarly, a great amount of workers aged between 15 and 24 years old work as a
-part-timer regardless of their gender, which could be seen from the data
-provided by the author (45.2% to 57.1% for female, 33.7% to 47.6% for male).
+when in need) and part-timers population. The loosening of the Temporary
+Staffing Services Law (労働者派遣法, Roudousha Dekenho) after the review in 1996
+and 2004, especially the loosing of manufacturing sector, meaning more
+corporates are able to hire great proportion of part-timers in order to reduce
+their manpower costs, resulted in large amount of workers who otherwise
+qualified for a full time employment, get employed as a part-timer instead. From
+1999 to 2019, the percentage of part-timers in the total female and male
+workforces had increased from 39.8% to 56.2% and 11.1% to 22.4% respectively.
+Note on the differences between the female and male statistics. Peculiarly, a
+great amount of workers aged between 15 and 24 years old work as a part-timer
+regardless of their gender, which could be seen from the data provided by the
+author (45.2% to 57.1% for female, 33.7% to 47.6% for male).
 
 Now coming back to the differences between the female and male statistics. When
 we see the overall picture of the workforce in Japan, there were 9.16 million
@@ -61,7 +66,12 @@ marital status regardless of their gender. In 2005, 31.2% of men and 18.7% of
 women aged between 35 and 39 years old, and 22.7% of men and 12.2% of women aged
 between 40 and 44 years old were single. In 2015, however, the figure rose to
 35% of men and 23.9% of women aged between 35 and 39 years old, and 30% of men
-and 19.3% of women aged between 40 and 44 years old were single.
+and 19.3% of women aged between 40 and 44 years old were single. An interesting
+fact is that the total percentage of men and women who doesn't get married was
+23.4% and 14.1% respectively. The older the demographics went, the closer is
+the percentage of their marital status matches the percentage of people who
+never married. It is likely, therefore, that older people are unlikely to get
+marry once after they aged 30 years old.
 
 And since there are a great proportion of people from the Abandoned Generation
 work as self-employed or part-time. This resulted in a low payment from National
@@ -120,7 +130,7 @@ agricultural industry and self-employed owners and increasing subscribers from
 seniors and part-time employees. The situation became evident as national
 average medical fee increased from ¥2,911 in 2000 to ¥5,869 in 2018, which is
 twice than in 2000. According to the 2018 survey, 28.6% Japanese from age 0 to
-78 subsribed to the Insurance, where a sizable minority from the Abondaned
+78 subsribed to the Insurance, where a sizable minority from the Abandoned
 Generation (18.6% from age 35 to 39, 18.9% from age 40 to 44, and 20.0% from age
 45 to 49) form part of the statistics despite the increasing burden. Despite the
 fee increase, National Health Insurance still faces financial deficit. The
@@ -182,4 +192,95 @@ mental situation of the Abandoned Generation as it doesn't guarantee employee
 benefits and is forced to pack into a tight time constraint to deliver services.
 There might be a chance for them to fight against the capital via collective
 bargaining through unionisation, but the author is pessimistic about the
-strength of the Japanese union.
+strength of the Japanese union as in 2019 the unionisation rate of Japan reached
+only 16.7%.
+
+# Solutions From the Government and Critics
+
+From 2019 Basic Policies for Economic and Fiscal Management and Reform
+(経済財政運営と構造改革に関する基本方針, Keizai Zaisei Un'ei to Kouzou Kaikaku
+ni Kansuru Kihon Houshin) or "Big-Boned Policy" in short (骨太の方針, Honebuto
+no Houshin), the government proposed the Employment Ice Age Generation Support
+Program (就職氷河期世代支援プログラム, Shuushoku Hyougaki Sedai, Shien
+Puroguramu) targeted at people aged from middle 30-year-old to 40-year-old,
+which aimed to transform at least 300 thousand of them to full-time employee in
+2020. This coupled with two strategies: first, the seamless support from
+consultation, education and training, employment, to job stability;
+second, humanised active support, instead of waiting passively, with wider
+coverage in the form of social activity. Following the first policy, the
+government sets up a special window in Public Employment Security Office
+(公共職業安定所, Koukyou Shokugyou Anteisho) or Hello Work in English,
+aided with speciality team that is responsible for employment
+consultation, job introduction to job stability, provides 3 months
+vocational training for the participants while they are working or at home
+(with e-training), and pushes for halfway appointments for nation and local
+civil servants in the next 3 years. Furthermore, Japanese government
+incentivises the employment of such working population from corporates with
+Specified Job Seeker Employment Development Subsidy (特定求職者雇用開発助成金,
+Tokutei Kyuushokusha Koyou Kaihatsu Joseikin), a new section established in
+Trial Employment Subsidy (トライアル雇用助成金, Toraiaru Koyou Joseikin),
+subsidised ranged from ¥600,000 for Small and Medium Enterprise to ¥500,000 for
+large enterprise.
+
+Despite the efforts from the government, the author critised such policies are
+deemed to fail as the solution is not based on the reality. The Temporary
+Staffing Services Law passed by the parliament depresses the wages of contract
+and full-time workers (those being marginalised), discourages the need of
+corporates to transform them to proper full-time workers which inevitably
+increases the cost of the human resources. This is further proven by the
+decreasing applicants to the Trial Employment Subsidy, from 41,730 in 2014 to
+23,609 in 2017, coupled with less than ideal execution efficiency (the ratio of
+execution cost and allotted budget), from 30.8% in 2014 to 59.3% in 2017.
+Ironically, most employees in Hello Work are in contract instead of full-time
+due the decreasing budget to the department. There is also a concern about the
+involuntary transformation of the employees to work in remote region they don't
+like. Although there is Livelihood Welfare Fund Loan System
+(生活福祉資金貸付制度, Seikatsu Fukushi Shikin Kashitsuke Seido) for low-income,
+elderly, and disabled people, it is not ideal for maintaining daily expenditure
+for people living in poverty, not mentioning its restrictive requirements
+(individual yearly salary not exceeding ¥125,000) and eventual repayment.
+Moreover, the term limit of Unemployment Insurance (失業保険, Shitsugyou Hoken)
+fall short when comparing to European counterpart (90 to 360 days compares to 3
+to 4 years).
+
+The support program, pointed out by the author, is a perfunctory by the
+government as its aim demographics had already passed their golden age for skill
+learning. The Abandoned Generation is in the age of 40 and at their physical and
+mental limit for further career development. Even if they could succeed in this
+program, it's doubtful that they can have enough savings for their retirement as
+they have only limited period to benefit from. In fact, the whole program is
+another attempt by the government after the failed attempt of previous program.
+
+Facing the ever decreasing birth rate, the ministries didn't come up with a good
+solution to improve the parenting environment and lighten the burden of child
+care. Instead, they often offended the women with their outdated patriarchal
+thinking that shirk the responsibilities to the women and blame them for not
+raising more children.
+
+The LDP (Liberal Democratic Party, 自由民主党, Jiyuu Minshu tou) governments
+were to blamed, the author claimed, for passive and sometimes even harmful role
+in helping the Abandoned Generation. They are accused of following the advices
+from business-dominated organisation, Japan Federation of Employers'
+Associations (日本経営者団体連盟, Nihon Keieisha Dantai Renmei) to implement the
+Temporary Staffing Services Law that encourage the use of temporary staffs
+excluding the management. The first Prime Minister that pushed for this law was
+Nakasone Yasuhiro, who single-handedly destroyed the JSP (Japan Socialist Party,
+日本社会党, Nihon Shakai Tou) by privatising JNR (Japanese National Railways,
+日本国有鉄道) to weaken the political influence of NRU (National Railway
+Worker's Union, 国鉄労働組合, Kokutetsu Roudou Kumiai) and General Council of
+Trade Unions of Japan (日本労働組合総評議会, Nihon Roudou Kumiai Souhyou Gikai)
+which two of them eventually collapsed. The further loosening of the Temporary
+Staffing Services Law initiated by the Prime Minister Junichiro Koizumi and his
+Minister of State for Financial Services Heizou Takenaka, and the following
+decreased of maximum of income tax rate and corporate tax rate, and budget
+reduction from social security system worsen the situation of the Abandoned
+Generation.
+
+The author suggested instead of the half-effort policies like these, the
+government should support the Abandoned Generation by fully paid re-education
+and vocational training including tuition fee and necessary daily need. The
+government should view the unemployed as reserve army for the newly grown
+industry, and trains those adapt to the new environment, thus benefitting both
+the employees and the economic growth. He also advocated of moving from relying
+on corporates for social security and instead driving such system directly from
+the government.

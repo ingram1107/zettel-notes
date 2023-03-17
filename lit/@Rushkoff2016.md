@@ -365,4 +365,169 @@ CEOs should intervene the economy by themselves with the following advices:
 
 # Chapter Tree: Speed of Money
 
+## Coin of The Realm
+
+The author criticised the education system especially the economy academia as it
+trains economists to only think in the framework of corporate capitalism. He
+thinks that corporate capitalism is less than ideal, and is naturally extractive
+based on borrowed money, that is the capital. It is because of the capital, it
+gives the participants the illusion that the economy is growing, where in fact
+it is just the money being borrowed and resulting in more borrowing from the
+market.
+
+The book examined the origin of the capital. First, the precious metal (minted
+coin) were used by the merchants for trading and bartering for less wealthy
+locals. Because of the limitation of bartering, the merchants invented local
+currencies based on receipt, that is a paper or metal foil stamped with a market
+value, which can be used for value exchange. Any merchant can issue such
+receipts as long as they had enough trust (stable sales) from the locals. The
+extra receipts received could later be paid back in metal coin or saved for the
+next market day. Such currency were aimed to promote transactions in the market
+for everyone's prosperity instead of selfish wealth hoarding for oneself since
+the value of the receipt could deplete over time when the merchant printed more
+of them. However, such decentralised nature of local currencies were frowned
+upon by the despotic nobles and monarchs. Instead of joining such system, the
+monarchs instead monopolised the money by creating central currency from their
+treasury and forbidding the minting of local currencies. It is aimed to slow
+down the economy activities to suppress the growth of the middle class and gives
+the ruling class the absolute control over the economy with violent instruments
+securing their grip.
+
+Essentially, the monarchs or ruling class can simply tax the people by debasing
+the central currency in order to keep their extra gold and silver. If any
+merchant need money for business, they have to borrow money from a central
+entity tie with interest, which in itself is extractive to make more money for
+the central entity. Furthermore, this form of currency is tied to the
+participant's credit instead of the demand for goods in the market unlike the
+local currencies. This resulted in encouraging the hoarding of money as the
+people fear of effect of currency debasing and the ever-increasing heat from
+competition instead of cooperation between merchants. Corporate capitalism grows
+the synthetic economy of money itself in the form of credits, instead of the
+value, that is the goods and services produced by the market. Thus, we often see
+corporates compete to become the issuer, to be at the financial centre to
+have control over the currency. Thus, they desire to expand of the market to
+seek more value to exploit, gave birth to colonialism and expansionist policies.
+
+This is reason why the creditor nations demand the debtor nations to implement
+austerity policies (in the example of Eurozone) instead of initiating easing
+policy or lowering interest rate. The aimed of the system is to extract money
+from the debtor, not to save the debtor in the wishing of generating and
+exchanging value in the market. It's why central bank is reluctant to lend money
+to the people by lowering interest rate or quantitative easing (buying bank's
+stashes of bonds), and instead, invests on financial instruments or stock of
+companies. The only way to save the economy, is by government intervention,
+which is by pathetically borrow money from the central bank to pay the people in
+order to put the money back into the market, and later pay back the loans in the
+future.
+
+**Note**: Though convincing, the explanation is self-contradictory from the
+historical evidence. If monarchs controlled the financial instrument to
+establish central currency, how did Middle Ages countries like France ended up
+bankrupt? Was the merchants somehow usurp the power from the despotic rulers? If
+so, how did they do that? #pennote
+
+## Reprogramming Money - Bank Vaults to Blockchains
+
+Some would argue that returning to gold-based currency could fix the problem as
+it fixed the value of the money. But the main issue about gold-based currency is
+of its scarcity, which encourages money hoarding. Instead, we should focus on
+increasing the velocity (exchange) of the currency, that is how quick a
+transaction can circulate money in the market. PayPal did bring convenience and
+speed to the currency for peer-to-peer transactions. However, it later caved in
+to the pressure from central banks and large financial institutions, and started
+to charge credits from the transactions. One is down.
+
+Then one day, Bitcoin, a cryptocurrency based on blockchain technology, came out
+to bypass any central authority for peer-to-peer transaction. Each transaction
+is verified by the peers in the network, which then the peers will be rewarded
+with bitcoins (called mining), and there is no credit charged. It seems all fine
+until we realise that Bitcoin has a limit threshold of how many bitcoins can be
+circulated in the network. It was then plagued by investors to skyrocket its
+exchange rate for potential profits. Like gold, Bitcoin failed because of its
+nature of scarcity, not mentioning the cost of the computer processing and
+electricity for cryptocurrency mining, two of the resources that can easily
+rented by other entities.
+
+Though blockchain failed to become the utility for monetary use, other entities
+started to utilise the technology for other purposes like decentralised
+autonomous corporations (DAC). Instead of relying on board of directors or CEOs,
+the governing rules and mission emerge from consensus between the members, with
+the aid of blockchain ledger. The corporate operations are open and transparent,
+and awards contribution with appropriate stock to the employees. The growth of
+DAC is based on the number of projects developed by the members, thus guarantee
+value creation. Despite its majestic nature, it still suffers from inequitable
+distribution, in which the newcomers are put in a more disadvantage position
+than the old employees. This is due to the nature that **decentralism doesn't
+promise equitable distribution**, just a different kind of exchange and
+verification system.
+
+## Money is a Verb
+
+The author argued that the solution doesn't need to come from technology, and in
+fact, doesn't require much technological advances. We trust blockchain not
+because we trust each other, but because we trust the technology. It's still not
+initiating desired social bonds and mutual benefits, in which shapes an
+alienated atomic economic culture, not a peer-to-peer one. Instead of
+reinventing existing money system like Bitcoin did, we should fit the money into
+the human behaviours, make it a mere exchange tool which its purpose is to
+encourage peer-to-peer value exchanges instead of hoarding. He suggested the
+following:
+
+1. Use or invent local currency based on geographical vicinity like BerkShare,
+   Detroit Dollars, Santa Barbara Missions, Bristol, Brixton, and Cumbrian
+   Pounds.
+2. Local currency must peg to nothing but itself, independent of existing money
+   systems, that encourages frequent transactions by depleting value or only
+   redeemable when reach a transaction limit.
+3. Use labour, favour (offer goods and services), or times as currency like
+   favour bank and time dollars or banks (Fureai Kippu, Local Exchange Trading
+   System (LETS)) to encourage cooperation.
+4. Local bank provides authentication and financial expertise to small
+   businesses, lend the money together with the community, and turning interests
+   into local discount.
+
+# Chapter Four: Investing Without Existing
+
+## Finance is Nothing Personal
+
+At first, the corporate-based pension system was targetted to increase its
+profits instead of executing its responsibility to provide security to its
+employees' future. Though the surplus of the investment from the fund of the
+pension goes into the pocket of shareholders and the executives, they are
+reluctant to compensate the loss of the pension system in the expanse of the
+corporate. Some circumvents it by reducing the pension for the junior employees
+and dividing the union from within. Some corporates even use the pension system
+as an emergency ban account to assist the corporate operations and risky
+investment.
+
+During the Reagan era, the financial liability of the corporates was delegated
+to the individual employee in order to further cut cost of the corporate's
+operation cost especially from the pension system. Instead, the employees are
+expected to manage their financial future in their own hand with the illusion of
+more information and control. In fact, they are being manipulated by the
+financial advisors to retrieve commissions regardless of their performance since
+the financial accounts are not disclosed by the financial instruments. Since
+there are more customers in the market, the brokerage houses' profits are
+increasing due the large volume of trading in the expanse of retail investors'
+profitability.
+
+## Do Algorithms Dream of Digital Derivatives?
+
+Before the improvement of the trading protocols, high-frequency trading (HFT)
+algorithms were able to make profits out of the market volatility by
+purposefully withdrawing all its bids, flooding the quote and order systems with
+fake trades, and "front-running" people's purchases (abusing delay between
+different trading system). These algorithms were run by ultrafast computer that
+were physically close to the stock exchange computers with high-speed networking
+and only available to wealthy firms. It put the individual investors into
+disadvantageous position.
+
+Even after the improvement of trading protocols, the human are expected to abuse
+the volatility of the market as it is an encouraged practice by many. Human
+should act like an algorithm in the market. Thus, the market is no longer driven
+by supply and demand, business conditions, or commodity prices, and instead
+driven by prices, flows, and volatility determined by the feedback loop of the
+algorithms. The stock market is less and less relevant to the reality that it
+grounds.
+
 [giang2013]: https://www.businessinsider.in/A-New-Report-Ranks-Americas-Biggest-Companies-Based-On-How-Quickly-Employees-Jump-Ship/articleshow/21354951.cms

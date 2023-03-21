@@ -789,3 +789,59 @@ enslaved people are naturally fit to the system. Most of them were obtained via
 wars at the time. If coersion exists, it means that they were unfit the role as
 slaves. Some go even further by attesting the fact that fitting a particular
 role doesn't mean a person is willing to be in such a role.
+
+# The Claims of Community
+
+Kant objected Aristotle's stand of points of the legislating laws to strictly
+promote or enforce one particular conception of good life. Instead, he argued
+that we should pursue a fair framework in which everyone can pursue their own
+conception of good life, thus doesn't violate one own freedom. In short, a free
+moral man shouldn't bound by the moral ties that is not chosen by them.
+
+However, communitarians like Alasdair MacIntyre didn't agree that there is no
+obligation for oneself to their community. Instead, they opted for a narrative
+conception of self as they view that human is essentially a story-telling
+creature, that is what stories I find myself a part. This question should be
+answered before the question of what am I to do. In other words, community
+values such as solidarity come before individual choices. The community stories
+such as history memories, parents, clan etc. is where we draw our identity,
+which is our moral starting point. Cutting the ties (withdrawing our membership
+of the community) from the past of our community will result in deforming our
+present relationships. By this, communitarians argued that other than the two
+moral obligations advocated by libertarians like natural duties (universal
+duties) and voluntary obligation (contract, consent), there is a third moral
+obligation, that is narrative obligation.
+
+One may ask that what to do when there are conflicting obligations in different
+communities. The answer from the communitarians is by choosing the most
+universal perspective and compare them in that framework. But we can argue that
+such choice is arbitrary and there is no way to restrict that people can't
+choose a more specific perspective.
+
+In the question of patriotism, there are some argues citizenship itself is a
+construct, thus there is no mandatory obligation of one to the country where
+they were born. Though there might be some emotion ties to said country, such
+sentimental feelings bring no moral obligation. Whether one has an obligation to
+a community, is determined by how many benefits one have received from the
+community.
+
+# Where Our Loyalty Lies
+
+Sandel stated that there are four main objection to the communitarians. First,
+the concern of overlapping obligations from multiple communities that are
+conflicting to each other and the fact there is no guide on which community
+should come first as seem from the debate that most people chose the most
+specific one. Second, the appeal to the sentiment, i.e., the emotion ties of
+communities, isn't necessarily the true moral obligations. Third, objection to
+the fact that obligation of solidarity and membership is beyond consent. In
+fact, the libertarians argued that patriotism can be based on reciprocity
+(mutual benefits) and implicit or explicit consent by voluntarily serving the
+country, thus forfeit the need of narrative obligation to complement the
+voluntary obligation. In other words, there is no intrinsic moral obligation of
+being a citizen. The last objection to the communitarians is that the obligation
+of membership is ultimately a collective selfishness which is a deviation of
+finding a way of good life.
+
+Michael Walzer, a critic of communitarians, argued that if such moral view is to
+be accepted, justice itself can't be independent of the community, and instead
+is just a matter of faith to the shared understanding among the members.

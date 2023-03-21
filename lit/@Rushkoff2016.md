@@ -530,4 +530,76 @@ driven by prices, flows, and volatility determined by the feedback loop of the
 algorithms. The stock market is less and less relevant to the reality that it
 grounds.
 
+## Investment Gamified: The Startup
+
+In order to win the game played by the investors, that is to gain huge exit
+profits from the startups, the entrepreneurs must think like investors by
+getting acquired regardless of the project failure. That is, they have to market
+the startup as a sellable enterprise, instead of planning a long-term profitable
+stable corporate. The aim of the entrepreneurs is to win the capital from the
+hands of investors, not earning revenue for sustainable future. Investors are
+not interested in long-term stable solution, they are expecting a huge return by
+megaexit (selling the corporate's shares) due to the high losses and risks in
+startup economy. Entrepreneurs that dream of grant vision must succumb to the
+investors' interests in defensible outcome or platform monopoly instead of a
+workable product. Therefore, the only way for an enterprise to win the game is
+by hiding their real revenue, drafts a great business plan outlook by showing
+sky-high potential revenue or growth instead of running a real business.
+
+## Ventureless Capital: The Patience of Crowds
+
+There is an alternative investment method built by the market force to return to
+the old school capitalism to counter the insanity of the startup economy. This
+kind of investment relinquishes the right of the investors to sell their shares
+immediately (holding at least 5 years) and benefits them via dividends, that is
+based on the profitability of the business, instead. The corporate have more
+authority over the company direction instead of listening to the order of
+investors with wild expectations. The extreme of this form of investment is
+called crowdfunding, in which the investors pay the product in advance and
+sometimes don't have share in the product success as they are investing in a
+grander sense. However, this form of investment is still within the scope of
+digital industrialism, which the independent operator leverages and extracts
+values from the network to achieve traditional economic goals.
+
+Some crowdfunding platforms give the investors on shares selling, which
+essentially making every investor as an angle venture capitalist. This can only
+exacerbate the worsening situation in the startup market where the late-comers
+are deemed to be sacrificed.
+
+There are some peer-to-peer solution: microfinancing or microlending and direct
+public offering (DPO). Microlending is virtually a peer-to-peer lending
+financial system in which the peers in the market can directly lend to a
+business with customised loans which usually have low interests. The corporates
+invested are eager to pay back the loans due to community pressure on its
+credit, and opted for an organic job creation, where the value tends to stay in
+the community instead of extracted out from the local economy. That being said,
+despite its delight prospect, the microfinancing industry was later plagued by
+the institutional investors which allowed larger players in the equation. This
+creates an unbalance competition between small lenders and larger lenders in
+which the latter ultimately forced the former to quit delusionally.
+
+DPO, unlike microfinancing, offers equity and dividends only in a state level.
+It sells the stocks directly to the purchasers instead of going through
+investment banking institutions or broker-dealer where only legal fees should be
+the concern of the corporate. Accredited or non-accredited (like employees,
+customers, suppliers, distributors, family members etc.) investors are allowed
+to own the company's stocks where they can share the prosperity brought by the
+corporate.
+
+## Fully Invested: Factors Beyond Capital
+
+The author suggested the following mindset to diversity the overall investment
+flow:
+1. Investing for dividends, meaning taking efforts to know a business and make
+   sure they are working for a sustainable target (revenue, not extracted from
+   finite resources).
+2. Invest in the community (locally or related to the business), including
+   labours, for mutual benefits.
+3. Establishing decentralised commons that assert the common ownership of local
+   resources including lands and knowledges.
+
+He argued that capital shouldn't the only resources to be used for investing.
+The labour and resources must be recognised to have value and accounted as
+investment to the community or the corporate.
+
 [giang2013]: https://www.businessinsider.in/A-New-Report-Ranks-Americas-Biggest-Companies-Based-On-How-Quickly-Employees-Jump-Ship/articleshow/21354951.cms

@@ -175,18 +175,33 @@ now age around 40, made 23.7% of the total number of calls (627,475, where
 309,565 are male, 317,910 are female) or 148,816 calls. And those who have
 suicidal thoughts made 28.3% of the total number of suicidal call (68,398) or
 18,373 calls. We can see that among the Abandoned Generation, they face serious
-mental issues and stress as the statistics barely improved on them.
+mental issues and stress as the statistics barely improved on them. Accompany by
+poverty, they pose a potential source on increasing the crime rate in avenging
+their unequal treatment and oppression in the society.
 
 Among the people that lived in poverty, 19.4% of them are seniors, which is
 higher than average compare to international community. The author predicts that
 this percentage will reach 30% as the Abandoned Generation reaching the age.
-Moreover, around 1.58 million people who were unmarried, 45- to 54-year-old,
-and live with their parents in 2016 that were either unemployed, NEET, or
-contract workers, 310 thousands of them were relying on their parents to
-maintain basic needs. From age 35- to 44-year-old, there are 288 thousands
-people face the same issue. Worryingly, those same families have little
-financial resources to take care of their children and facing great risk of
-bankruptcy.
+Moreover, around 1.58 million people who were unmarried, 45- to 54-year-old, and
+live with their parents in 2016 that were either unemployed, NEET, or contract
+workers, 310 thousand of them were relying on their parents to maintain basic
+needs. From age 35- to 44-year-old, there are 288 thousands people facing the
+same issue. Worryingly, those same families have little financial resources to
+take care of their children and facing great risk of bankruptcy.
+
+There is a 2025 problem (２０２５年問題, 2025 Nen Mondai) triggered by baby
+boomer generation (団塊の世代, Dankai no Sedai) in which the population ageing
+becoming a serious issue to be handled by the Japanese government. In 2025, the
+percentage of ageing people in Japan is predicted to be 30%. The ratio of people
+aged 65 and above and people aged 15 to 64 will be 1.9, which means that around
+two working people have to support one senior. In a survey done in 2017, the
+total expenditure of Public Assistance (生活保護, Seikatsu Hogo) was ¥3.8
+trillion. The author predicted that there will be a 2050 problem when the
+Abandoned Generation aged. The percentage of ageing people will be 37.7% and the
+ratio of people aged 65 and above and people aged 15 to 64 will be 1.4, which
+means that around only one working people need to support one senior.
+Expenditure of the Public Assistance will increase to ¥17.7 to 19.3 trillion
+considering most of them doesn't have enough saving for retirement.
 
 The trend of the gig economy around the globe may even worsen the economic and
 mental situation of the Abandoned Generation as it doesn't guarantee employee
@@ -250,7 +265,9 @@ learning. The Abandoned Generation is in the age of 40 and at their physical and
 mental limit for further career development. Even if they could succeed in this
 program, it's doubtful that they can have enough savings for their retirement as
 they have only limited period to benefit from. In fact, the whole program is
-another attempt by the government after the failed attempt of previous program.
+another attempt by the government after the failed attempt of previous program,
+Re-challenge (再チャレンジ, Sai Charenji), cancelled in 2009 as it was
+ineffective.
 
 Facing the ever decreasing birth rate, the ministries didn't come up with a good
 solution to improve the parenting environment and lighten the burden of child
@@ -284,4 +301,51 @@ government should view the unemployed as reserve army for the newly grown
 industry, and trains those adapt to the new environment, thus benefitting both
 the employees and the economic growth. He also advocated of moving from relying
 on corporates for social security and instead driving such system directly from
-the government.
+the government. Not only that, the social security system must be able to
+accommodate the needs of the applicants, accompanied by the rehabilitation of
+the Abandoned Generation. Furthermore, it is necessary to transform the
+prejudice of the society from judging people that apply for social security and
+welfare program and instead affirming their intrinsic value of human being. The
+worker unions can also play an important role in providing physical and mental
+support to those in need.
+
+From a wider perspective, to prevent the Abandoned Generation from sinking into
+more miserable circumstances, the government must guarantee a living wage (refer
+to the real wage), reduce the tax or fee on daily necessities (telephone fee),
+and support educational fees. It is crucial to guarantee a liveable minimum wage
+throughout the country in order to save the regional economy by encouraging
+consumerism. The mandatory expenditure for the companies especially the
+transportation fees must be the responsibility of the corporate instead of
+delegated to the employees. Instead of relying on scholarship, the university
+tuition fee should be supported directly through the government budget. The
+subsidies on tuition fee are necessary due to the deterioration of the public
+education system. The government could further discourage the mistreatment of
+the temporary employees by removing subsidies from those corporates which don't
+follow such policy, thus forcing the companies to support their employees'
+accommodation and family expenditure.
+
+**Note**: In my opinion, the tuition fee shouldn't be the reform focus on
+helping the Abandoned Generation. Instead, a more general reform on the public
+education system should be initiated. Though in the meantime, it can be a
+temporary solution.
+
+Furthermore, the author proposed a sharing economy based on the locals' or
+employees' needs. For example, they can share the rent of a single household
+even though they are from different background as this will lighten the burden
+and provide enough social support to each other. Such economy enables the
+autonomous and democratic decision instead of dominated by corporate interests
+(driven by profiteering). The locals or employees can establish a non-profit
+worker cooperative with their funds that equally distribute the profits gained,
+which means that there is not much wage disparity between management and
+employees.
+
+**Note**: The above idea is similarly of that to what suggested by
+[Rushkoff](@Rushkoff2016.md).
+
+# Interesting Facts
+
+As the local employments that typically tie to local community where human
+relationship are important (the residents as customers) fall, the surplus
+labours (often temporary employees) are flooded in to fill up the need by the
+community. However, because of their low wages, it ends up exaggerating the
+poverty and/or mental health problem of the employees.

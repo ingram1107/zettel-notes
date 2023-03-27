@@ -3,7 +3,7 @@ title: "Throwing Rocks At The Google Bus: How Growth Became The Enemy of Prosper
 authors: Douglas Rushkoff
 year: 2016
 date: 2022-09-23 21:59
-tags: [literature, politics, socialism, economy]
+tags: [literature, politics, economy, philosophy]
 ---
 
 # Introduction
@@ -601,5 +601,28 @@ flow:
 He argued that capital shouldn't the only resources to be used for investing.
 The labour and resources must be recognised to have value and accounted as
 investment to the community or the corporate.
+
+# Chapter Five: Distributed
+
+## Digital Distribution
+
+The answer to the digital industrialism is by adapting the old economy model to
+the current technologies and mindset that is to develop a self-sustaining,
+highly reciprocal, peer-to-peer, worker-owned, community defined marketplaces.
+The author advocated *distributism* where the power is available throughout the
+network and be granted to the smallest possible nodes like guilds, communities,
+businesses, or family in everywhere at once. Unlike #socialism, it is not about
+redistribution of earnings or capital through taxes or state action after the
+fact. Intead, it is to establish the precondition for a healthy marketplace to
+have the widest possible distribution of means of production. This involves the
+value creation distribution, rejection of infinite growth, collective ownership,
+and human agency.
+
+## Renaissance Now?
+
+Rushkoff advocated alongside with Popes to suggest a slow-down of the economic
+activities and recover community values once lost after the power consolidation
+by the industrialism. It is the renaissance of the old artisanal values that
+reject manufactured goods and opted for limited-run artisanal items.
 
 [giang2013]: https://www.businessinsider.in/A-New-Report-Ranks-Americas-Biggest-Companies-Based-On-How-Quickly-Employees-Jump-Ship/articleshow/21354951.cms

@@ -424,7 +424,7 @@ future.
 historical evidence. If monarchs controlled the financial instrument to
 establish central currency, how did Middle Ages countries like France ended up
 bankrupt? Was the merchants somehow usurp the power from the despotic rulers? If
-so, how did they do that? #pennote
+so, how did they do that? Criticised in [On Distributism](../202304132002.md).
 
 ## Reprogramming Money - Bank Vaults to Blockchains
 

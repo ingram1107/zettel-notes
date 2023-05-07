@@ -12,6 +12,8 @@ natural resources etc. are often overlooked in geopolitical analysis. Even after
 much advancement in technologies, these factors are not eliminated from
 influencing national interests and decisions.
 
+## Russia
+
 Looking at the example of Russia, it faces west towards the European plain
 stretches to France, which lies its upmost interests in securing its position.
 Since Poland has a relatively narrow corridor, controlling Poland could allow
@@ -120,3 +122,76 @@ region.
 **Note**: Marshall concluded that the fall USSR was due to the combination
 effects of its overstretch, poor financial management, not people-oriented
 economic system, and the defeat in Afghanistan.
+
+## China
+
+Coming to the geography of China, it adapts the attack as defence strategy same
+as Russia to reach natural barriers like Tibet Plateau, Gobi Desert, and
+Xinjiang in order to protect its heartland, North China Plain, lies between the
+Yellow River and Yangtze River with rich agriculture. Especially the Tibet
+Plateau, it plays an important role in fixing China geopolitical problem, such
+that its annexation avoid major powers like India to move in and threaten
+Chinese heartland. Tibet Plateau gives a height advantage and the control of
+sources of Yellow River, Yangtze River, and Mekong River to any player to
+project their power. Gobi Desert, though historically a troublesome terrain for
+Chinese dynasties to deal with nomad threats, has become a buffer as any huge
+mobilisation can be detected in early stage due to the advancement of modern
+reconnaissance. Add into difficulty to the aggressors, there are few roads for
+heavy armour manoeuvre and few habitable areas which imposes a long supply lines
+for them to enter Inner Mongolia. To further secure its geopolitical position,
+China tries to pull Mongolia into its sphere of influence via trading with the
+benefits of getting its minerals. This left two geopolitical weakness on the
+North of China: Russia's Far East and Kazakhstan. Though Russia and China have
+become good partners to resist United States' military powers, it is in nature
+an alliance of convenience. In fact, due to the sanctions, Russia becomes the
+junior partner of China, and its Far East increasingly falls into the influence
+of China as the continuous migration Manchuria residents into the Far East. Now
+coming to the border with Kazakhstan, it is simply not a threat as Kazakh and
+Russian don't impose a significant threat to China since attacking it requires
+long supply line from Russia even though there are weak spots in between deserts
+and mountains. Xinjiang now acts as a buffer to the heartland, albeit its
+turbulence nature due to its Muslim Uighur population resistance to the
+integration. But China is nervous about the possible independence of Xinjiang
+since it has plenty of fossil fuel resources and nuclear testing sites, and it
+is a key of "One Belt, One Road" initiative connecting to its deep-water naval
+base in Gwadar, Pakistan. Looking to the south, the border is secure by Burma's
+mountainous terrain and Laos's hilly juggle that are difficult to launch a
+massive military campaign from there. The border with Vietnam remains a
+manageable problem for China as it doesn't provide many geography features to
+protect Vietnam from army aggression as Chinese military powers grow.
+
+**Note**: Vietnam has to either cling to US to seek protection from China or get
+close to China to avoid possible clashes.
+
+As the Western powers, primarily the British Empire and Russia Tsardom, came
+into contact with China, coastal cities become increasingly important due to
+switching focus on agriculture to trading. After decades of development, there
+is a wide wealth and life quality gap between the coastland and inland cities.
+More depressing fortune for the latter cities that lies on rich soils, 40% of
+arable land are polluted or has thinning topsoil suitable for farming due to
+industrialisation efforts, which could threaten the food production in China.
+This is an undesirable but at the same time necessary measurement taken by the
+Chinese government due to one sole factor: Its burden to govern over 1.4 billion
+people. If the unity of the whole country doesn't be enforced, China may crumble
+like its historical predecessors. Thus, the integration of territories consists
+of minorities and the promise of economic progress must be prioritised over
+autonomous local decision-making and democracy. The former could be seen from
+the Community Party of China (CPC) incorporation of Tibet assets by bring in
+modern infrastructures, such as railway system and highway, into the plateau,
+which also attracts immigration from Han people into the region. It's the same
+case as in Manchuria (where the Machu people have been successfully integrated
+into China) and Xinjiang. But just like in Xinjiang, this could escalate the
+ethnic tensions there amid increasing appearance of Han people and their
+cultural domination in the region and eventually explodes into ethic conflicts
+like Uighur unrest in 2018. Coming back to the economic progression, if CPC
+can't keep up with their promise to grow their economy, resulting in a stagnant
+economy, the conflicts between the countryside and urban will resurface, and the
+resentment over the government may rise across the country.
+
+Nevertheless, the security over the land makes China confident in focusing its
+efforts to develop its blue-water navy in order to project power other than its
+coastline, that is guarded by green-water navy. Its ambition can be seen on its
+claims over the Ten Dash Line (includes Taiwan) with the purpose to control the
+most important passageway in South China Sea albeit at the cost of reefing the
+relationship with its maritime South East Asia (SEA) neighbours. The author
+predicts that China could rival US naval power in 2045.

@@ -190,8 +190,44 @@ resentment over the government may rise across the country.
 
 Nevertheless, the security over the land makes China confident in focusing its
 efforts to develop its blue-water navy in order to project power other than its
-coastline, that is guarded by green-water navy. Its ambition can be seen on its
-claims over the Ten Dash Line (includes Taiwan) with the purpose to control the
-most important passageway in South China Sea albeit at the cost of reefing the
-relationship with its maritime South East Asia (SEA) neighbours. The author
-predicts that China could rival US naval power in 2045.
+coastline, that is guarded by green-water navy. The author predicts that China
+could rival US naval power in 2045. Its ambition can be seen on its claims over
+the Ten Dash Line (includes Taiwan) with the purpose to control the most
+important passageway in South China Sea albeit at the cost of reefing the
+relationship with its maritime South East Asia (SEA) neighbours. It aims to
+become a two-ocean naval power that secure its trade route in Pacific and Indian
+Ocean. First, let's discuss the main problem of accessing to Pacific Ocean from
+the Chinese perspective: the first island chain. Most of the choke points are
+controlled by US ally, Japan, including the Sea of Japan, La Pérouse Strait
+between Russian Sakhalin Island and Japan Hokkaido, and Ryukyu Islands. Even if
+Chinese blue-water navy could somehow pass through the north-western choke
+points dominated by Japanese navy, Kuril Islands still impose a difficult
+passage to the Pacific Ocean as the contentious territorial disputes between
+Japan and Russia is undergoing and exacerbated due to the waning power
+projection of Russia to the Sea of Okhotsk. To the west, China disputes the
+ownership of the Senkaku Island or Diaoyu Island in an attempt to break through
+the chain, but US and Japan military presences in Okinawa in Ryukyu Islands
+remain a deterrent for the Chinese navy. The weak link of the first island chain
+is Taiwan, in which the Chinese government sort to gain control over it via soft
+power via trades and tourism. In addition, China has an operational advantage in
+supply and response time as its mainland possession has only 140 miles or 225 km
+away from Taiwan versus US's 6,400 miles or 10,300 km. Therefore, gaining
+control over the East China Sea air superiority is a primary objective for
+Chinese successful strategic deployment and may be a heat point in the future.
+Looking at the Indian Ocean, we immediately see that Malacca Strait imposes a
+choke point for China to reach the energy-rich Persian Gulf. Adding worse to the
+matter, Association of Southeast Asian Nations (ASEAN) countries are not
+necessarily in a good term with China due to their claims over the South China
+Sea. China approaches this disadvantage with a combination of carrots and sticks
+tactic to sway those countries to give in their grasp on the Sea and the Malacca
+Strait. By carrots, we mean trade deals and tourism. By sticks, it means
+increasing militarisation of South China Sea by turning the rocks into islands
+with military facilities such as port and runway, and threats. There are
+attempts from China to bypass the Strait entirely by establishing deep-water
+ports in Burma, Bangladesh, Pakistan, and Sri Lanka, in which the most important
+ports are in Pakistan and Burma. To further cut its reliance on Malacca Strait,
+it built gas and oil pipelines in Burma west coastline to link Bay of Bengal to
+South-Western China, in which 80% of energy went through these pipelines to
+supply its residents' and military's needs. China even go so far to venture to
+Africa to seek for minerals and precious metals. However, US and Japan are not
+sitting ducks and planning to check China in Burma.

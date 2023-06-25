@@ -3,7 +3,7 @@ title: Kimin Sedai (The Abandoned Generation)
 authors: Fujita Takanori
 year: 2020
 date: 2022-07-15 22:03
-tags: [economy, socialism, japanese]
+tags: [economy, socialism, japan]
 ---
 
 # Who are the Abandoned Generation

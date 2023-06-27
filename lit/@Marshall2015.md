@@ -228,6 +228,55 @@ ports in Burma, Bangladesh, Pakistan, and Sri Lanka, in which the most important
 ports are in Pakistan and Burma. To further cut its reliance on Malacca Strait,
 it built gas and oil pipelines in Burma west coastline to link Bay of Bengal to
 South-Western China, in which 80% of energy went through these pipelines to
-supply its residents' and military's needs. China even go so far to venture to
+supply its residents' and military's needs. China even goes so far to venture to
 Africa to seek for minerals and precious metals. However, US and Japan are not
 sitting ducks and planning to check China in Burma.
+
+## USA
+
+The upmost strategic interest of the USA in defence senses in to control the
+Caribbean Sea, which is to control the Florida Strait and Yucatan Channel. Thus,
+the alignment of Cuban government is important to the US decision maker as it is
+viewed to be vital link for US to secure its trade route from Mississippi. It is
+part of the reason the US attacked Spain and Cuba became the trigger of one of
+the most tense Cold War powder keg in the region. Viewing from the geographical
+features, we could see that Mississippi Basin is the US heartland as it has one
+of the richest river systems for either farming, navigation, or trade. To invade
+its heartland, the troops must pass through Canada or Mexico, either case will
+force the invader having a long supply line. After securing its regional
+security, the US seeks to defend its coast by building a great blue water navy
+in addition of controlling valuable archipelagos or outpost. In Pacific Ocean,
+those are the Guam, Hawaii, and Okinawa (controlled by US ally, Japan). US
+gained the western hemisphere naval base rights from the British Empire during
+World War II (WW2). This is enough to deter any attempts from the Atlantic.
+During the Cold War, US further secured its grasp on the Northern Atlantic power
+with NATO alliance in order to stop USSR from reaching Atlantic. Some would
+argue that NATO treaty has stated that the signed countries have equal say in
+geopolitical matter, but in truth, NATO is ultimately answered only to the US
+government and its interests. This is shown especially during and after the Suez
+Canal Crisis. Utilising the bases, US can easily sway regional allies and gather
+resources upon meeting regional conflicts.
+
+The author said there are three possible challengers, where two of them has
+their limitation: European Union (EU), Russia, and China. EU is limited by its
+slow integration due to strong national identity and reliance on US military
+guarantee since its defence budget is low. The aftermath of the 2008 financial
+crash and disastrous Libya intervention dwarf the EU ability to be an equal
+power to the US. Russia, as discussed before, doesn't have a warm water port and
+great enough blue navy to threaten US hegemony, thus remain to be a regional
+power. Only China, the author argued, has the potential to meet the US power
+projection, but even then, its military is decade behind the US. US can further
+undermine Chinese influence in the SEA countries by capitalising their anxieties
+on the Chinese encroachment at the South China Sea. If US could react to the
+challenge from China in time, it may gain one's confidence and convince it to
+switch side. The same rule applied to China.
+
+The predicament US may face will be once US become self-sufficient in energy by
+cracking fossil fuel in Alaska, the importance of the Gulf will be severely
+reduced. Gulf nations including Israel might seek other alliances such as Iran
+or China when US decides no longer guarantee their security. Especially for
+Israel, its importance may be diminished due to the growing Asian and Hispanic
+demographics in the US. Other than that, the USA have to keep the Panama Canal
+open and monitor Brazil's influence in the Caribbean Sea. Unlike other
+geopolitical commentator, the author argued that US will not decline since its
+population is not ageing and the USA remains the top choice for immigrants.

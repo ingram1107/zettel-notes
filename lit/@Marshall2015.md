@@ -280,3 +280,72 @@ demographics in the US. Other than that, the USA have to keep the Panama Canal
 open and monitor Brazil's influence in the Caribbean Sea. Unlike other
 geopolitical commentator, the author argued that US will not decline since its
 population is not ageing and the USA remains the top choice for immigrants.
+
+## Western Europe
+
+Europe has a good climate conditions that is being fed by the Gulf Stream which
+brings enough rainfall and nurture the right type of soil to allow population
+growth. This laid the foundation for the European countries to become the
+pioneers in industrialisation as the work was possible all year round that
+subsequently resulting in food surplus. Trading came as natural, town starting
+to form, and the people turn their focus to ideas and technologies, not
+withstanding that Western Europe is abundant of natural harbour due to major
+river systems. That being said, the geographical features and linguistic regions
+keep the Europe divided among multiple nation states. Furthermore, major rivers
+such as the Rhine and Danube often don't meet together, thus becoming the
+boundaries between states instead of acting as trading routes. The difference is
+more clear when we examine the Europe from north to south. The Northern Europe
+is generally more industrialised and richer compare to its southern counterpart
+as the trade links were easier to maintain due to most Northern Europe countries
+comprises the heartland of the Europe. While looking at the south, they have
+fewer coastal plains suitable for agriculture and suffer more natural disasters
+than its northern counterpart. For example, Spain is hindered by the narrow
+coastal plains that have poor soil, short rivers, and Meseta Central. Another
+instance such as Greece has steep cliffs along its coasts with few wide fertile
+valleys for agricultural purposes. Moreover, Greece is reliant on the Aegean Sea
+which directly competing with Turkey influence.
+
+Though the concept of "a closer Europe" is the ideal of the European Union, its
+geography and ethnography hinder the practicality of implementing such idea. The
+cracks between the member states widen after the 2008 financial crisis and
+migrant crisis which eventually brought the Brexit in 2020. Stricter border
+control in Schengen Area among the nation states and the rise of the far-right
+parties further weaken the foundation of the EU. Additionally, the conflicts
+between the member states regarding their national interests unveil as the EU
+becoming more destabilised. To compete with Turkey, Greek government spends more
+in military budget than it should in order to protect its sovereignty over 1,400
+islands. Therefore, it felt offence when Northern European countries insisting
+on imposing austerity measures on its national budget. Poland is rather
+suspicious of German intention, and rather locked it inside the EU and NATO like
+France, partner with British and later Hungary. Poles government relies on the
+USA to confront possible Russian aggression from the east. France has to protect
+its weak point at the northeast (the North European Plain) as most of its
+heartland are protected by the Pyrenees on the south, Alps on the southeast, and
+Atlantic on the west. At the same time, it is reluctant to become a junior
+partner with Germany in the EU. The UK objective is to prevent an overwhelming
+dominant power on the continent, for it a French-German alliance or Russia. It
+is blessed by good farmland and plenteous of fish stocks, and can trade with
+other continental countries with the protection of being an island. Its vital
+interest lies on the GIUK gap and the English Channel, and its grip on these
+choke points wane as its naval power continue to erode. It is the reason UK is
+so afraid of the independence of Scotland as it may not only hamper the nation's
+prestige, but also its geopolitical position. As for Germany, since the
+establishment of the EU and the end of the Cold War, it becomes an economic
+powerhouse on the continent, but wary of rearmament due to the memories of WW2.
+There is no German Question (two front wars) as the front with France is solved
+by the alliance of being a member state in the EU. This left with Russia, but
+due to German government interests of maintaining its economic power projection
+(third-largest goods exporters) and reliant on Russian energy, it may seek
+closer ties with Russia.
+
+**Note**: 2022 Russian Invasion of Ukraine have changed the landscape of the
+geopolitical theatre in Europe as the EU felt threaten by the Russian
+aggression. This may either result in a gradual increase of military budget of
+EU or more reliance on the US dominant military power in the region. The far
+right parties also gain more and more grounds in the national politics which may
+further hinder the EU integration.
+
+The mountainous terrain makes Balkan countries divided among themselves,
+especially in the case of Bosnia. Serbia has become the natural ally for Russia
+due to the influence of Orthodox religion, Slavic origin, energy deal with
+Russia. Other Balkan nations are akin to the Western influence.

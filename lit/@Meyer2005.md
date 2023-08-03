@@ -139,3 +139,27 @@ function template that calls workers, passing information provided by traits
 classes.
 
 - [ ] Item 54: Familiarize yourself with the standard library, including TR1
+
+# Be aware of template metaprogramming
+
+Template metaprogram is a program that executes inside a compiler that will
+output source code instantiated from the defined templates then further compile
+the source code.
+
+The advantages of template metaprogramming are able to make something possible
+comparing to conventional code and turn runtime works into compile time items
+thus making error compile-time detectable. [Recursive](../202202151731.md)
+template instantiation is possible. It typically results in a smaller
+executable, shorter runtime, lesser memory requirement, but longer compilation.
+
+**Note**: Trait class is part of the template metaprogramming.
+
+Template metaprogramming is widely adopted by scientific and engineering
+community since it is able to ensure dimensional unit correctness such as
+fractional dimensional exponents, and reduce them during compilation. It could
+optimises matrix operations via expression templates that eliminate temporaries
+and merge loops. Moreover, it can generate custom [Design Pattern](../202211221249.md)
+implementation, which introduce policy-based design (generative programming).
+
+- [ ] Item 47: 
+- [ ] Item 55:

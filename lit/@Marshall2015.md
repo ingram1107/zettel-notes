@@ -349,3 +349,96 @@ The mountainous terrain makes Balkan countries divided among themselves,
 especially in the case of Bosnia. Serbia has become the natural ally for Russia
 due to the influence of Orthodox religion, Slavic origin, energy deal with
 Russia. Other Balkan nations are akin to the Western influence.
+
+## Africa
+
+Though Africa is a huge continent, its geographical features including Sahara
+Desert, the Sahel, Atlantic Ocean, and Indian Ocean encourages isolation between
+each other and to the outside world. Divided by the Sahel's semi-arid,
+rock-strewn, sand strip of land that reach from the Gambia to Eritrea, we could
+group the Africa into top third, that is Mediterranean coastline or North
+Africa, and bottom two third, which has more diversity in religion, climate
+features, and vegetation. There are not a lot of land features suited for
+agricultural activities since they are either jungle, swamp, desert, or
+steep-sided plateau plus lack of domesticable animals. Rivers such as Zambezi
+doesn't provide good navigation due to steep streams, and most of them don't
+connect to each other, resulting in disunity among tribes and regions. Few
+natural harbours can be spotted in Africa due to smooth coastline.
+
+Its long history of exploitation from Arabs, Turks, and the West and artificial
+borders drawn by colonial powers resulted in African living in the prison of
+political geography drawn by the outsider. This is especially clear in the case
+of Libya where three traditional administration regions, Tripolitania,
+Cyrenaica, and Fezzan are combined despite their conflicting interests. For
+example, Tripolitania is more lean to trading with Southern Europe, Cyrenaica
+looked to Egypt instead, whereas Fezzan is an inland region and was a
+traditional nomad land. Ethic conflicts are common among the African countries,
+like Sudan, Somalia, Kenya, Angola, Democratic Republic of Congo (DRC), Nigeria,
+and Mali, as their geography doesn't conform to the demographics.
+
+DRC had a complicated history due to its vulnerable geographical position and
+its diversity of ethnic groups (200 of them), thus became the battleground of
+several countries' interests including Uganda, Rwanda, Burundi, Angola, Namibia,
+Zimbabwe etc. during the First and Second Congo War (commonly known as African
+Great War). Though it is rich in natural resources and has French as its
+national language, it was heavily exploited by the Belgian colonial government
+and lack central government, therefore immediately triggered civil wars after
+decolonialism. Its neighbour Burundi also suffers Tutsi-Hutu ethnic tension in
+2015. Even though Africa countries are often rich in resources, in many cases,
+local population is barely part of the beneficiaries.
+
+Egypt, when comparing to the other African countries, is blessed by its
+geographical features as it is protected by deserts on three sides and
+Mediterranean Sea on the north. However, they also restrict it to only play as a
+regional power due to the lack of trees to project its power through navy. It is
+the most powerful armed force in the region without a doubt due to US military
+aids, but it is contained by the desert, the sea, and Israel. The water issue
+especially with Ethiopia over the Blue Nile dam could be the future flashpoint
+between two countries.
+
+The colonial neglection of the northern region and subsequent unequal
+distribution of wealth from the oil production in Nigeria creates north-south
+division, especially when the northern population are mostly made up of Muslim.
+Its oil income is threatened by a terrorist organisation, Movement for the
+Emancipation of the Niger Delta. Islamist rebels, Boko Haram, that operates in
+the north-eastern region and Mandara mountain range poses security concerns over
+the nation's prosperity. For now, Nigeria is cooperating with Cameroon, Chad,
+US, and France on the matters.
+
+In contrast to its northern neighbour DRC, Angola is shielded by its
+geographical features where its northern border is secured by the jungle,
+southern by the desert, and western by the Atlantic Ocean. Its eastern
+sovereignty act as a buffer to DRC and Zambia to protect its dense population in
+the west as it is sparsely populated in mugged land. It is also the
+second-largest crude oil supplier to China. Throughout its history, the civil
+wars that happened in this country were merely a disguised tribe wars (Mbundu,
+Bakongo, and Ovimbundu).
+
+In East Africa, two competing nations, that is Kenya and Tanzania, are striving
+for being the economic powerhouse in the region. Tanzania is building up
+Bagamoyo port with the assistant from the transport lines built by South Africa.
+That being said, Kenya has the oil reserves and more efficient industrial system
+to be the most likely candidate for that matter. There is also an effort from
+China on building port in Mombasa with the rail link to the capital Nairoboi. It
+just needs some political stability in order to secure the position.
+
+Speaking of China, Africa serves important national interests to its energy
+supplies as one third of the oil imports alongside with other precious metals
+like iron, copper, and cobalt are coming from there. This could be seen from its
+effort on building the Benguela railway to link Lobito, DRC and Angola and
+closing ties with Niger and Angola for oil supplies. If necessary, China may
+establish military presence if there is a conflict between its corporates and
+local population.
+
+South Africa being the second-largest economy in the Africa Continent, it is a
+regional powerhouse to be reconned with in economy, military, and population.
+This is due to its advantageous geographical position of accessing to the
+Atlantic Ocean and Indian Ocean, rich reservoir of gold, silver, and coal mines,
+and suitable climate and land for food production. Since South Africa are mostly
+composed of highland features, there is no much concern about the malaria, thus
+ideal for human settlement. To maintain its dominance in the region, it sets up
+several railway lines connecting between cities and nations such as East London,
+Cape Town, Port Elizabeth, Durban, Zimbabwe, Botswana, Zambia, Malawi, Tanzania,
+DRC (in Katanga), and Mozambique. It dominates the South African Development
+Community (SADC) and constantly flirts with Tanzania, a member in East African
+Community (EAC), to gain influence over the Great Lakes region.

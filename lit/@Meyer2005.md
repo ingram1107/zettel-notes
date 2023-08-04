@@ -40,7 +40,7 @@ Comparing to function-macro, inline function obeys the scope and access rules
 and doesn't need to worry about possible side effects without sacrificing the
 benefits gained from function-macro.
 
-- [ ] Item 48: Be aware of template metaprogramming
+- [x] Item 48: Be aware of template metaprogramming
 - [x] Item 30: Understand the ins and outs of inlining
 
 # Prefer pass-by-reference-to-`const` to pass-by-value
@@ -56,7 +56,7 @@ off**, hence the name. Other than that, the author advised to use pass-by-value
 only on built-in types and STL [Iterator](../202202241727.md) and function
 objects.
 
-- [ ] Item 7: Declare destructors virtual in polymorphic base classes
+- [x] Item 7: Declare destructors virtual in polymorphic base classes
 
 # Use `const` whenever possible
 
@@ -95,7 +95,7 @@ public:
 
 - [ ] Item 24: Declare non-member functions when type conversions should apply
   to all parameters
-- [ ] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
+- [x] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
 - [x] Item 30: Understand the ins and outs of inlining
 - [ ] Item 28: Avoid returning "handles" to object internals
 - [ ] Item 27: Minimize casting
@@ -161,5 +161,69 @@ optimises matrix operations via expression templates that eliminate temporaries
 and merge loops. Moreover, it can generate custom [Design Pattern](../202211221249.md)
 implementation, which introduce policy-based design (generative programming).
 
-- [ ] Item 47: 
-- [ ] Item 55:
+- [ ] Item 55: Familiarize yourself with Boost
+
+# Declare destructors virtual in polymorphic base classes
+
+Undefined behaviour might be resulted from the lack of virtual destructor if the
+class was not intended to be a base class or used polymorphically. In the case
+when the derived class is deleted through the pointer to the supposing base
+class with no virtual destructor, only the base class's part will be destroyed
+instead including the derived part of the class. This is what we called partial
+destroy, which can cause leak memory and corrupted #data-structure.
+
+If the class is intended to be use polymorphically, indicated by its virtual
+function(s), its destructor must be declared virtual in order to avoid the above
+described situation. Another case that virtual destructor deem useful is when we
+want to create an abstract class but lacking any function to begin with. In such
+case, we can declare a pure virtual destructor for it.
+
+Though virtual destructor could protect user from resource leak, it comes with a
+great cost in size as there is a need of `vptr` and `vtbl` (array of function
+pointers) which may increase the object size ranging from 50% to 100%. This
+advised from the author is to only declare virtual destructor if the class is
+intended to be inherited and used polymorphically, as in there is a need of
+manipulation of derived class types through base class interface.
+
+- [x] Item 13: Use objects to manage resources
+- [x] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
+- [ ] Item 34: Differentiate between inheritance of interface and inheritance of
+  implementation
+
+# Make interfaces easy to use correctly and hard to use incorrectly
+
+When designing an interface, we should consider possible clients' mistakes on
+using such interface. There are several ways to restrict the client in using the
+interfacing by type system (`struct` or `class`) to enforce parameter type
+checking, predefine set of values returned from static function (safer than
+`enum`), `const` quantifier, and using STL smart pointer as the return type for
+[Factory Method](../202302232101.md). Another reason of using static function
+instead of `enum` is because of the problematic reliable initialisation of the
+non-local static objects. In general, custom types should behave just like the
+built-in types, and the interface should be consistent across different data
+structure to prevent confusion and misuse. If there is a need of a custom
+deleter for a particular object, pass in a custom deleter (a function that
+handle the object deletion) to the smart pointer constructor for the type is the
+best way to go.
+
+- [ ] Item 22: Declare data members `private`
+- [ ] Item 4: Make sure that objects are initialized before they're used
+- [x] Item 13: Use objects to manage resources
+- [ ] Item 27: Minimize casting
+- [ ] Item 26: Postpone variable definitions as long as possible
+
+# Use objects to manage resources
+
+Premature return or loop exit and exception could result in resource leak
+especially when we choose to manually manage the resources. The author suggests
+against the manual resource management as it is not reliable due to its reliance
+on the developer to understand the full context and avoid subtle mistakes.
+Instead, we should use destructor for automatic resource management. We could
+acquire resource and immediately turn it over to resource-managing objects,
+either with smart pointers or custom one. This practice is called
+[Resource Acquisition Is Initialisation (RAII)](../202202012306.md)
+
+- [ ] Item 8: Prevent exceptions from leaving destructors
+- [ ] Item 14: Think carefully about copying behavior in resource-managing
+  classes
+- [ ] Item 15: Provide access to raw resources in resource-managing classes

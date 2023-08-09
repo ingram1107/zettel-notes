@@ -98,7 +98,7 @@ public:
 - [x] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
 - [x] Item 30: Understand the ins and outs of inlining
 - [ ] Item 28: Avoid returning "handles" to object internals
-- [ ] Item 27: Minimize casting
+- [x] Item 27: Minimize casting
 
 # Understand the ins and outs of inlining
 
@@ -209,7 +209,7 @@ best way to go.
 - [ ] Item 22: Declare data members `private`
 - [ ] Item 4: Make sure that objects are initialized before they're used
 - [x] Item 13: Use objects to manage resources
-- [ ] Item 27: Minimize casting
+- [x] Item 27: Minimize casting
 - [ ] Item 26: Postpone variable definitions as long as possible
 
 # Use objects to manage resources
@@ -226,4 +226,34 @@ either with smart pointers or custom one. This practice is called
 - [ ] Item 8: Prevent exceptions from leaving destructors
 - [ ] Item 14: Think carefully about copying behavior in resource-managing
   classes
-- [ ] Item 15: Provide access to raw resources in resource-managing classes
+- [x] Item 15: Provide access to raw resources in resource-managing classes
+
+# Provide access to raw resources in resource-managing classes
+
+The access to raw resources in resource-managing classes such as built-in smart
+pointers or custom types could be done either explicitly or implicitly. Meyers
+favours explicit access (`get()`) as it offers a safer solution. However, if the
+client deems such method is too inconvenient, we could implement implicit
+conversion (`->`, `*`, `()`) by sacrificing the resource safety (possible
+dangling pointer). Depending on the clients need and interface consistency, we
+should choose between these two access methods wisely.
+
+# Minimize casting
+
+Prefer new style cast (`const_cast()`, `dynamic_cast()`, `reinterpret_cast()`,
+`static_cast()`) over old C cast since the compiler could diagnose the usage
+errors and easy to identify them. That being said, the author still argues
+against the use of casting and prefer to minimise casting in the code base since
+it often lead to increase runtime cost as in `dynamic_cast()` especially with
+deep hierarchy. Casting within the class hierarchy almost guarantees confusion
+as it performs on a copy of base class part of the current object instead
+directly on the current object itself which results in no modification to the
+current object's state. Unless it is necessary, which in that case we should
+hide it inside a function, casting is certainly the wrong approach to the
+problem. There are generally two solution to refactor casting: by type-safe
+[C++ Container](../202202241719.md) or moving virtual function up to the
+hierarchy for multi-type usage so that every class within the hierarchy can
+perform the same operation.
+
+- [ ] Item 34: Differentiate between inheritance of interface and inheritance of
+  implementation

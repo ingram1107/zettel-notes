@@ -187,7 +187,7 @@ manipulation of derived class types through base class interface.
 
 - [x] Item 13: Use objects to manage resources
 - [x] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
-- [ ] Item 34: Differentiate between inheritance of interface and inheritance of
+- [x] Item 34: Differentiate between inheritance of interface and inheritance of
   implementation
 
 # Make interfaces easy to use correctly and hard to use incorrectly
@@ -223,8 +223,8 @@ acquire resource and immediately turn it over to resource-managing objects,
 either with smart pointers or custom one. This practice is called
 [Resource Acquisition Is Initialisation (RAII)](../202202012306.md)
 
-- [ ] Item 8: Prevent exceptions from leaving destructors
-- [ ] Item 14: Think carefully about copying behavior in resource-managing
+- [x] Item 8: Prevent exceptions from leaving destructors
+- [x] Item 14: Think carefully about copying behavior in resource-managing
   classes
 - [x] Item 15: Provide access to raw resources in resource-managing classes
 
@@ -255,5 +255,48 @@ problem. There are generally two solution to refactor casting: by type-safe
 hierarchy for multi-type usage so that every class within the hierarchy can
 perform the same operation.
 
-- [ ] Item 34: Differentiate between inheritance of interface and inheritance of
+- [x] Item 34: Differentiate between inheritance of interface and inheritance of
   implementation
+
+
+# Differentiate between inheritance of interface and inheritance of implementation
+
+There are three ways to specify the type of inheritance should the subclass be
+inherited, i.e., with pure virtual function, simple virtual function, or
+non-virtual function. With pure virtual function, it indicates that the function
+should be inherited by interface only. To allow default implementation, using
+simple virtual function is advised with implementation specified in the function
+body. A better way to do this is by defining two separate functions: a pure
+virtual function that provide the interface, and a protected non-virtual
+function that provide implementation, thus the subclasses could choose over
+whether to implement their own algorithm or to use the ready one. On the other
+hand, non-virtual function indicates that such functionality is mandatory and is
+not intended to be overridden.
+
+A base class, that is class intended to be inherited, should have at least one
+virtual function (destructor). Avoid declaring all function as virtual
+unnecessarily.
+
+- [ ] Item 32: Make sure public inheritance models "is-a"
+- [ ] Item 36: Never redefine an inherited non-virtual function
+
+# Prevent exceptions from leaving destructors
+
+Within a [C++ Container](../202202241719.md), if two items inside it encountered
+exception inside their destructors, it will result in undefined behaviour.
+Therefore, it is advised that exception must come from non-destructor function
+by providing regular function to perform resource management if the client needs
+to react to the exception accordingly (usually alongside with a dedicated
+resource-managing entity). Then, define a destructor from the resource handler
+to either terminate or swallow the exceptions coming from its scope as the
+default behaviour.
+
+# Think carefully about copying behavior in resource-managing classes
+
+There are several considerations on copying behaviour in resource-managing
+classes, which are prohibiting copy, reference counting (smart pointer with
+custom deleter), deep copy, or ownership transfer.
+
+- [ ] Item 6: Explicitly disallow the use of compiler-generated functions you
+  do not want
+- [ ] Item 5: Know what functions C++ silently writes and calls

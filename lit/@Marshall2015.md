@@ -442,3 +442,67 @@ Cape Town, Port Elizabeth, Durban, Zimbabwe, Botswana, Zambia, Malawi, Tanzania,
 DRC (in Katanga), and Mozambique. It dominates the South African Development
 Community (SADC) and constantly flirts with Tanzania, a member in East African
 Community (EAC), to gain influence over the Great Lakes region.
+
+# The Middle East
+
+Marshall defines the Middle East as the region that include Mesopotamia, the
+Arab Desert and its periphery. Due to the inhospitability of the desert, most of
+the population around this area live in its periphery. Although there are enough
+geographical features that could be used as basis for national boundaries, most
+modern Middle East countries' borders are based on Skyes-Picot Agreement which
+drew artificial lines across diverse regions. Within this area, there are
+several schisms within religion especially in the case of Islam in which there
+are denomination such as Sunni, Shia and its sub-denomination (Twelvers,
+Ismaili, Zaidi), Alawites, and Druze, with the latter two are not recognise to
+be part of Islam by dominant Sunni and Shia thoughts. The author argues that the
+conflict in this region is essentially down to tribal conflict due to religious
+and ethical differences.
+
+Iraq, in the author eyes, is merely a loose geopolitical entity that includes
+different geographical regions, i.e., Mosul, Baghdad, and Basra. Mosul and its
+milieu are controlled by the Sunni-dominated Kurds, Baghdad by Iraqi Sunni, and
+Basra by Iraqi Shia'ite. Such entity was never stable to begin with even with
+"strong man" accompany with  the suppression of Kurds, Saddam's dictatorship,
+and the suppression of Shia Muslim in 1991. In the case of Kurds, they retain
+the control the region around Mosul despite al-Anfal genocide in 1988, and even
+able to rose up during the Gulf War. However, its power is being checked by the
+neighbouring Syria, Turkey, and Iran due to significance Kurd minority in those
+countries. And even without all of that, there will be a competition for the
+national leadership with the Rojava Kurds who reside in north-eastern Syria.
+Coming to Iraqi Sunni, they don't control any strategic resources such as oil
+like Kurds and its southern counterpart which comprises mostly Shia Muslim, thus
+will not have economic independence if separatism grows. The Sunni Triangle,
+that is east of Baghdad, west of Ramadi, and north of Tikrit, has more common
+those in Syria than Kurds and Iraqi Shia'ite.
+
+Lebanon, once under the French flag alongside with Syria, has serious
+demographic issues due to its diverse population. The Maronite Christians were
+once the ally to the French colonial government, which obviously deem become the
+hostile target for the local Muslim majority. Most cities' population are
+largely compose of Sunni Muslim, except for Beirut and Beqaa Valley, in which
+Hezbollah Shia'ite dominate to support Syrian Shia'ite. Notably, Tripoli has a
+sizeable Alawite population which raises tensions between the religion and the
+local Sunni Muslim. The demographic issues are so sensitive that there is only
+one census was done in 1932 and a civil war broke out in 1958.
+
+There exists the same tensions between Sunni and Alawites in Syria, with the
+addition that the latter also became the ally to the French colonial government
+in the region. Al-Assad family, the dictatorial dynasty in Syria, is coming from
+the Alawite background. Syria has become a battleground for several regional
+powers such as Russia, Iran, Saudi Arabia, and Qatar.
+
+Moving the camera to Israel/Palestine region, the wars and the oppression from
+several Arab states within their boundaries such as Egypt, Jordan, and Syria
+give rise to the Palestinian identity. Although Jerusalem wields little
+geographical advantages, it has significant in both cultural and religious
+senses. Gaza has been barbed-wired and blockaded by both Israelis and Egyptian
+forces, which makes it a highly dense settlement though good in defence, a
+disaster for its population. West Bank plays a vital role in securing the
+Israelis coastal region due to the mountain range, which explains the aggression
+from it in order to prevent any hostile forces approach from the east especially
+when its heartland has hardly any strategic depth. From the south, Israel has a
+peace treaty with Egypt with demilitarised Sinai served as a buffer zone for
+both nations and with Jordan in addition of the protection from the Arab desert.
+Despite occational small raids from southern Lebanon and Syria's ambition to
+cross Golan Heights (controlled by Israel since 1967) for sea access, those
+powers don't pose a threat to Israel national security.

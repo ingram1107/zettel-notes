@@ -458,14 +458,23 @@ be part of Islam by dominant Sunni and Shia thoughts. The author argues that the
 conflict in this region is essentially down to tribal conflict due to religious
 and ethical differences.
 
+Islamist's terrorist groups like Al-Qaeda and ISIS grow out from colonial
+exploitation and the failure of the delivery of prosperity or freedom by
+pan-Arabism. Though able to gain support around the globe, it met fierce
+resistance from non-Sunni and minorities alike, and even the local due to the
+jihadists national background. Recently, its influence has been suppressed by
+US, Russia, French, and British. However, they are successful of exporting those
+jihadists across the globe which might become the powder keg that could threaten
+national or even international security.
+
 Iraq, in the author eyes, is merely a loose geopolitical entity that includes
 different geographical regions, i.e., Mosul, Baghdad, and Basra. Mosul and its
 milieu are controlled by the Sunni-dominated Kurds, Baghdad by Iraqi Sunni, and
 Basra by Iraqi Shia'ite. Such entity was never stable to begin with even with
-"strong man" accompany with  the suppression of Kurds, Saddam's dictatorship,
-and the suppression of Shia Muslim in 1991. In the case of Kurds, they retain
-the control the region around Mosul despite al-Anfal genocide in 1988, and even
-able to rose up during the Gulf War. However, its power is being checked by the
+"strong man" accompany by the suppression of Kurds, Saddam's dictatorship, and
+the suppression of Shia Muslim in 1991. In the case of Kurds, they retain the
+control the region around Mosul despite al-Anfal genocide in 1988, and even able
+to rose up during the Gulf War. However, its power is being checked by the
 neighbouring Syria, Turkey, and Iran due to significance Kurd minority in those
 countries. And even without all of that, there will be a competition for the
 national leadership with the Rojava Kurds who reside in north-eastern Syria.
@@ -491,6 +500,13 @@ in the region. Al-Assad family, the dictatorial dynasty in Syria, is coming from
 the Alawite background. Syria has become a battleground for several regional
 powers such as Russia, Iran, Saudi Arabia, and Qatar.
 
+In Jordan, due to the refugees coming from Palestine, Syria, and Iraq, it faces
+a demographic issue in order to integrate them into the country, not
+withstanding the possible infiltration into the north-eastern city of Zarqa by
+jihadists.
+
+Saudi Arabia has to deal with jihadists in the southern border with Yemen.
+
 Moving the camera to Israel/Palestine region, the wars and the oppression from
 several Arab states within their boundaries such as Egypt, Jordan, and Syria
 give rise to the Palestinian identity. Although Jerusalem wields little
@@ -503,6 +519,6 @@ from it in order to prevent any hostile forces approach from the east especially
 when its heartland has hardly any strategic depth. From the south, Israel has a
 peace treaty with Egypt with demilitarised Sinai served as a buffer zone for
 both nations and with Jordan in addition of the protection from the Arab desert.
-Despite occational small raids from southern Lebanon and Syria's ambition to
+Despite occasional small raids from southern Lebanon and Syria's ambition to
 cross Golan Heights (controlled by Israel since 1967) for sea access, those
 powers don't pose a threat to Israel national security.

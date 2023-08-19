@@ -207,10 +207,10 @@ handle the object deletion) to the smart pointer constructor for the type is the
 best way to go.
 
 - [ ] Item 22: Declare data members `private`
-- [ ] Item 4: Make sure that objects are initialized before they're used
+- [x] Item 4: Make sure that objects are initialized before they're used
 - [x] Item 13: Use objects to manage resources
 - [x] Item 27: Minimize casting
-- [ ] Item 26: Postpone variable definitions as long as possible
+- [x] Item 26: Postpone variable definitions as long as possible
 
 # Use objects to manage resources
 
@@ -300,3 +300,36 @@ custom deleter), deep copy, or ownership transfer.
 - [ ] Item 6: Explicitly disallow the use of compiler-generated functions you
   do not want
 - [ ] Item 5: Know what functions C++ silently writes and calls
+
+# Postpone variable definitions as long as possible
+
+Avoid unused variables and be especially cautious in the case of #exception. A
+better practice, argued by Meyer, is to postpone the variable until it is
+necessary for it to be initialised with an argument. For loop, unless the
+assignment has less expensive constructor-destructor pair and we are dealing
+with performance issues, the variable should be defined inside the loop body.
+
+# Make sure that objects are initialized before they're used
+
+For the C part of the C++, i.e., the built-in types, there is no initialisation
+guarantee from the language prior to the assignment. Note that initialisation
+happen earlier than assignment, thus it is more efficient to initialise an
+object instead of via assignment especially in the case of class. The order of
+initialisation for class hierarchy is that the initialisation of the base class
+happen before its derived children.
+
+The relative order of initialisation of non-local static objects defined in
+different translation units is undefined by the language. The state objects
+referred to global object, object defined at namespace scope, static object
+within class, static object within functions, and file static object. Only local
+static object is the static objects defined in the function scope. Translation
+unit refers to the source code that give rise to a single object file. It
+happens when a non-local static object in one translation unit is initialised
+using other non-local static object in different translation unit. The solution
+is to transform non-local static object into static function that return the
+reference of that object, thus reforming it into a local static object. The
+function could be further optimised using `inline` specifier. However, static
+object still suffers problem in multithreading environment due to [Race Condition](../202112061109.md).
+Meyer proposes that we could bypass such concern by manually invoke all
+reference-return functions during single-threaded start-up portion of the
+program.

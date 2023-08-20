@@ -505,8 +505,6 @@ a demographic issue in order to integrate them into the country, not
 withstanding the possible infiltration into the north-eastern city of Zarqa by
 jihadists.
 
-Saudi Arabia has to deal with jihadists in the southern border with Yemen.
-
 Moving the camera to Israel/Palestine region, the wars and the oppression from
 several Arab states within their boundaries such as Egypt, Jordan, and Syria
 give rise to the Palestinian identity. Although Jerusalem wields little
@@ -521,4 +519,78 @@ peace treaty with Egypt with demilitarised Sinai served as a buffer zone for
 both nations and with Jordan in addition of the protection from the Arab desert.
 Despite occasional small raids from southern Lebanon and Syria's ambition to
 cross Golan Heights (controlled by Israel since 1967) for sea access, those
-powers don't pose a threat to Israel national security.
+powers don't pose a threat to Israel national security. The only concern that
+Israel will have will be coming from Iranian possible possession of nuclear
+weapons especially after Trump's withdrawal from the nuclear deal since 2018.
+In the case if Iran has the nuclear, it is certainly that Arab countries will
+try to possess their own in the region, further degrading Israel's security.
+Therefore, it puts Iranian nuclear facilities under its airstrike despite it is
+1000 miles or 1609 km away and the need to cross sovereign airspace.
+
+Iran has a large national boundaries protected by Zagros, Elburz, and waters,
+but due to limited habitable space, it has a rather small population, that is 78
+million people, live in there. Zagros sits between the long borders between
+Iran, Iraq, and Turkey, and ends almost at the Strait of Hormuz, defending Iran
+from any aggression from the West. Elburz raises along the borders with Armenia,
+South Caspian shores, Turkmenistan, and ends at the border with Afghanistan,
+defending Iran from Northern and Eastern threats. The river Shatt al-Arab
+divides Iran and Iraq national borders after the Zagros turning eastward to the
+Gulf, it has rich oil reserves and acts as a buffer with its swampland and
+waters. In fact, during the Iran-Iraq War started in 1980, Saddam's Iraq never
+made it pass through swamp in Khuzestan, reaching the Zagros Mountains. Other
+oilfields are concentrated at the north and central Iran. The reasons that Iran
+remains relatively poor are mismanagement, corruption, mountainous topography,
+and economic sanctions. It is difficult in building interconnected economy due
+to the mountainous terrain that Iran inherited. Therefore, in order to control
+its national integrity, Iran has been built with centralised state power and
+utilises the power in order to control the substantial minorities within its
+border to prevent possible dissent by external forces. Its strategic location in
+the Gulf make it has the capability to block the strait to prevent 20% of the
+world's oil supply due to its narrow 21 miles or 33.8 km wide gap. After
+military threats from US were withdrawn from the region, Iran is able to stretch
+its influence reaching the Mediterranean Sea through Iraq, Syria, and Lebanon.
+
+Iranian expanding influences over the region has alarmed Saudi Arabia, resulting
+in a Middle East Cold War between the two countries. However, its smaller
+population albeit stronger industrial and energy capabilities making it a
+leading Sunni country in the region with weak military projection. It has to
+deal with jihadists in the southern border with Yemen, which is a proxy war with
+Iran. Like Israel, most Sunni countries, especially Saudi, United Arab Emirates
+(UAE), Bahrain, and Egypt are against Iran, going as far as to sanction
+countries like Qatar that getting too close to Iran.
+
+Turkey locates at the Anatolia or Asia Minor with 5% territory on Europe
+continent, connected by the Bosporus Strait and Dardanelles Strait. Starting
+from Mustafa Kemal Atatürk, Turkey was trying to stay away from Arab conflicts
+as much as possible in order to bring Turkey closer to Europe, backup by the
+military support that uphold the Turkish constitution. Despite the efforts, it
+is still not a recognised as a part of the EU due to the concerns of human
+rights (Kurds), economic efforts (possible influx of labour into European
+market), and its nature of Muslim majority. The constant rejection by the
+European powers' acceptance and the reluctant adaptation to secular values by
+rural Turks turning Turkey going back to its traditional geopolitical strategic
+thinking, that is to expand its influence over Europe, Asia, and Middle East,
+especially after Turgut Özal being elected in 1989. Arab's nations are still
+suspicious of economic ties with Turkey due to the fear of possible returning of
+Ottoman influences on the region. Iran, on the other hand, sees as a competitor
+in the region, not withstanding their opposite stance in the Syrian Civil War.
+Turkish support to the Muslim Brotherhood also cool down its relationship with
+Egypt after the second coup d'état by the military. Turkey and Russia also have
+conflicted interests in the Black Sea, Caspian Sea, and Middle Asia despite its
+reliance on Russian energy and further pipeline infrastructures that are going
+to be laid down for the European import of the energy. Their relationship
+further cooled down due to their opposite stance and after heated back and forth
+after the shot-down of SU 24 jet fighter in 2015. Furthermore, Turkey can
+further seal off Russian Black Sea fleet by the blockage on Bosporus Strait
+and/or Dardanelles Strait. Its relationship with Israel is also tense since the
+Islamist elites trying to utilise the antisemitism sentiment in order to gain
+votes in the polls. This resulted in a triple alliance between Greece, Cyprus,
+and Israel, excluding Turkey from one possible energy sources.
+
+The Arab Spring portrayed in the western media doesn't represent the movement
+fully as there are many others join reactionaries which either soured into
+rioting or civil war. Often times, religious beliefs, social mores, tribal
+links, and guns are more powerful than the so-called liberal ideas. It is pretty
+much still be dominated by Islamism. China and India might move in if US ever
+withdraw or lessen its influence in the Middle East, especially when China has
+already established a prominent presence in Saudi Arabia, Iraq, and Iran.

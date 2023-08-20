@@ -43,3 +43,19 @@ with hundreds of addresses that map to the same prefix due to information is
 cached on entire address. Not withstanding that most caching solutions are based
 on large, fully associative cache implemented with CAMs, which obviously has the
 same problem describe before.
+
+Instead, Waldvogel et al. proposed an algorithm composed of hashing that check
+addresses whether they match any prefix of a particular length, $O(N)$ runtime
+complexity of binary search, and precomputation to prevent backtracking in case
+of failures. The routing table will be built by using array of records organised
+by prefix length, each element points to a corresponded hash table. Markers are
+needed in order to direct binary search to greater prefix lengths starting from
+the median of the array. If $P$ is the index of the array and $level(P)$ is
+written as $a_1, a_2, \ldots, a_n$, then it needs a marker at each level $a_1
+a_2, \ldots, a_k, 0, 0, \ldots, 0$ such that $a_k = 1$. Thus, a hash entry
+consists of a marker with real prefixes. The number of markers is limited by the
+number of 1's bits in $level(P)$. For precomputation, every marker node will
+have a variable that store the value of the best matching prefix of the marker.
+The value will be precomputed when the node is inserted into the hash table.
+During the search on the lower half (longer prefix lengths) of the tree,
+client's best matching prefix's value will be updated.

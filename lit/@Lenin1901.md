@@ -38,3 +38,17 @@ mass movement should be placed before the theoretical, political, and
 organisational tasks without being subservient to the mass movement itself.
 Mostly important, as Lenin warned, that socialist movement shouldn't fall into
 tactic-based movement.
+
+Instead of treating political struggle and economic struggle separately,
+revolutionaries, he argued, should work in close organic contact with the
+proletarian struggle. Therefore, we should not just confine yourself in exposing
+the system, we have to react to the immediate and current interest of the
+proletariat. Abuses exposure is the start of awakening class consciousness, but
+it should not be the only way in which the revolutionaries should be active in.
+Political exposure is also critical for the cause of the revolution and
+political agitation should not be applied exclusively on basis of economy. The
+so-called "lending the economic struggles itself a political character" only
+aims to push legislative and administrative reforms, ultimately a reformism
+movement. This run to the danger in which the ruling class may win back working
+class's confidence by passing the reforms. Instead, revolutionaries should push
+for proletarian political demands at the same time.

@@ -1,0 +1,37 @@
+---
+title: Small Forwarding Tables for Fast Routing Lookups
+authors: ['Mikael Degermark', 'Andrej Brodnik', 'Svante Carlsson', 'Stephen Pink']
+year: 1997
+date: 2023-08-27 13:27
+tags: [literature, networking, data-structure]
+---
+
+The authors proposed a compact forwarding table that is small enough to fit into
+a cache from a general purpose CPU of a [Router](../202207061800.md), which
+allows fast [IP routing](../202207061815.md) lookup in software without the fear
+of expensive hardware upgrade. Forwarding table is the local version of routing
+table from CPU in the router's input ports. Although there are [Data Link Layer](../202206131651.md)
+technologies such as flow or tag architecture like [Asynchronous Transfer Mode (ATM)](../202209221012.md),
+it adds complexity and redundancy to the network which could be unnecessary.
+Traditional forwarding tables that based on Patricia tree are large due to the
+increasing requirement on the size of the address cache, and there are too many
+expensive memories referenced needed to search up.
+
+The forwarding table data structure proposed is a tree with 3 leaves divided
+into 3 levels based on power of 2 (0, 16, and 24), which would mean 4 memory
+accesses for each level. In worst case scenario, there could be 12 memory
+accesses needed for a single forwarding lookup, but this is fairly unlikely. It
+minimises the number of memory access, which is the main bottleneck of the
+forwarding lookup, and its size so that it could fit in a cache or at least most
+frequently visited route are stored inside it. The locality of the traffic
+pattern will keep the most frequent used piece of the data structure in the
+cache, therefore the most lookups will be fast. The secondary goal is to keep
+entities naturally aligned in order to avoid expensive instructions and
+bit-extraction operations.
+
+The authors pointed out that the nature of routing entries that can have the
+same next-hop route, in which we can utilise it and share them among the
+entries, further reducing the table's size.
+
+The authors also mentioned that finding the proper routing information is pretty
+similar to the more general interval set membership problem.

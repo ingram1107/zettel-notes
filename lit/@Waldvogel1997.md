@@ -52,10 +52,14 @@ by prefix length, each element points to a corresponded hash table. Markers are
 needed in order to direct binary search to greater prefix lengths starting from
 the median of the array. If $P$ is the index of the array and $level(P)$ is
 written as $a_1, a_2, \ldots, a_n$, then it needs a marker at each level $a_1
-a_2, \ldots, a_k, 0, 0, \ldots, 0$ such that $a_k = 1$. Thus, a hash entry
-consists of a marker with real prefixes. The number of markers is limited by the
-number of 1's bits in $level(P)$. For precomputation, every marker node will
-have a variable that store the value of the best matching prefix of the marker.
-The value will be precomputed when the node is inserted into the hash table.
-During the search on the lower half (longer prefix lengths) of the tree,
-client's best matching prefix's value will be updated.
+a_2, \ldots, a_k, 0, 0, \ldots, 0$ such that $a_k = 1$. Meaning, the markers are
+placed at all levels in $L$ that could be visited by binary search when looking
+for an entry whose best matching prefix is $P$. Thus, a hash entry consists of a
+marker with real prefixes. The number of markers is limited by the number of 1's
+bits in $level(P)$. For precomputation, every marker node will have a variable
+that store the value of the best matching prefix of the marker. The value will
+be precomputed when the node is inserted into the hash table. During the search
+on the lower half (longer prefix lengths) of the tree, client's best matching
+prefix's value will be updated. The invariant of the algorithm is stated as:
+either the best matching prefix of $K$ is $BMP$ or there is a longer matching
+prefix in $R$.

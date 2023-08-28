@@ -299,7 +299,7 @@ custom deleter), deep copy, or ownership transfer.
 
 - [ ] Item 6: Explicitly disallow the use of compiler-generated functions you
   do not want
-- [ ] Item 5: Know what functions C++ silently writes and calls
+- [x] Item 5: Know what functions C++ silently writes and calls
 
 # Postpone variable definitions as long as possible
 
@@ -333,3 +333,21 @@ object still suffers problem in multithreading environment due to [Race Conditio
 Meyer proposes that we could bypass such concern by manually invoke all
 reference-return functions during single-threaded start-up portion of the
 program.
+
+# Know what functions C++ silently writes and calls
+
+A smart compiler will generate the codes for you as needed. For example, upon
+declaration, default constructor and destructor will be created by the compiler
+in order to manage the class's resources. Instantiation will trigger generation
+of default copy constructor while reassignment will cause generation of copy
+assignment operator. The compiler will not generate constructor for the user if
+they have already defined their own constructor, regardless of the number of the
+parameters.
+
+**Note**: Unless declared virtual on the based class, the derived class's
+default destructor will be non-virtual.
+
+The author advised the reader to define their copy assignment if the class
+declared has referenced data member(s) in it. Because there will be a lot of
+problems dealing with referenced data member in which cases such declaration
+would be illegal, the compiler will throw out the compilation error.

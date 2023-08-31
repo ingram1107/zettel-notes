@@ -351,3 +351,30 @@ The author advised the reader to define their copy assignment if the class
 declared has referenced data member(s) in it. Because there will be a lot of
 problems dealing with referenced data member in which cases such declaration
 would be illegal, the compiler will throw out the compilation error.
+
+# Item 6: Explicitly disallow the use of compiler-generated functions you do not want
+
+We can explicitly disable code generation by declaring functions like copy
+constructor to be private, accompany by simple declaration, i.e., we don't
+implement the copy constructor, so that no function can legally call it. If a
+client tries to call it, it will throw a link error. To convert such error into
+compile time, we can implement it via class inheritance with the disable
+function declared as private.
+
+**Note**: This seems to be replaced by the syntax sugar `delete`.
+
+- [x] Item 32: Make sure public inheritance models "is-a"
+- [ ] Item 39: Use private inheritance judiciously
+- [ ] Item 40: Use multiple inheritance judiciously
+
+# Item 32: Make sure public inheritance models "is-a"
+
+Public inheritance indicates "is-a" relationship between the superclass and
+subclass, meaning subtype can be the supertype, but not the other way around.
+However, there is a discrepancy between the real world categorisation and
+[OOP](../202202041514.md) as there may have some exceptions. Implementing
+runtime error to indicate an object can't do something doesn't semantically mean
+that it can't do something, but it simply does it with the error output.
+
+- [ ] Item 39: Use private inheritance judiciously
+- [ ] Item 38: Model "has-a" or "is-implemented-in-terms-of" through composition

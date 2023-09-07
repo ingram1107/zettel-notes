@@ -443,7 +443,7 @@ DRC (in Katanga), and Mozambique. It dominates the South African Development
 Community (SADC) and constantly flirts with Tanzania, a member in East African
 Community (EAC), to gain influence over the Great Lakes region.
 
-# The Middle East
+## The Middle East
 
 Marshall defines the Middle East as the region that include Mesopotamia, the
 Arab Desert and its periphery. Due to the inhospitability of the desert, most of
@@ -594,3 +594,29 @@ links, and guns are more powerful than the so-called liberal ideas. It is pretty
 much still be dominated by Islamism. China and India might move in if US ever
 withdraw or lessen its influence in the Middle East, especially when China has
 already established a prominent presence in Saudi Arabia, Iraq, and Iran.
+
+## India and Pakistan
+
+[Indian subcontinent](../202309061900.md) is shaped by the Hindu Kush and
+Baluchistan Desert Plateau to the northwest, Karakoram Range and Himalayan to
+the north and the east, Bay of Bengal to the southeast, Indian Ocean to the
+south, and the Arabian Sea to the southwest. Despite its vast flatland, the
+climate differences and disconnected rivers like the Ganges, Brahmaputra, and
+Indus contributes to linguistic and cultural diversity.
+
+Other than Pakistan and India, other minor powers such as Nepal and Bhutan are
+in the mercy of their two neighbours: China and India. Bangladesh, despite its
+rich farmland, suffers from constant flooding, and is surrounded by India, thus
+heavily under the hand of Indian government.
+
+Secular democracy and possession of major cities and financial hubs gives India
+a head start, make it easier to forge a unify Indian identity when comparing to
+Pakistan, which were left with an agriculture base and culturally divided
+regions.
+
+Pakistan has to face its deeply entrenched ethnic issues, as it is composed by
+60% Punjabi, 14% Sindhi, 13.5% Pashtun, and 4.5% Baluchi. Sindhi population
+reluctance of becoming second-class citizens, Pashtun being culturally ties with
+their Afghan kins, and Baluchistan (45% territory of Pakistan) local
+secessionist movements despite rich of natural gas and mineral wealth, will be
+the primary concern of the Pakistan government.

@@ -612,11 +612,26 @@ heavily under the hand of Indian government.
 Secular democracy and possession of major cities and financial hubs gives India
 a head start, make it easier to forge a unify Indian identity when comparing to
 Pakistan, which were left with an agriculture base and culturally divided
-regions.
+regions. Furthermore, it has a much larger population (1.3 billion) comparing to
+Pakistan (182 million) which allows it to become a rising economic power.
+Kashmir could be the window for India to Central Asia, and further deny Pakistan
+a border with a friendly China.
 
 Pakistan has to face its deeply entrenched ethnic issues, as it is composed by
 60% Punjabi, 14% Sindhi, 13.5% Pashtun, and 4.5% Baluchi. Sindhi population
 reluctance of becoming second-class citizens, Pashtun being culturally ties with
 their Afghan kins, and Baluchistan (45% territory of Pakistan) local
 secessionist movements despite rich of natural gas and mineral wealth, will be
-the primary concern of the Pakistan government.
+the primary concern of the Pakistan government. In fact, due to Chinese interest
+in the region, it would like to link and secure Gwadar with huge security forces
+so that its deep water capacity could circumvent possible blockage in the Strait
+of Malacca. The full control of Kashmir is the ultimate goal of Pakistan in
+order to secure its water supply from the Indus River for its struggling
+industry amid deepen climate crisis, strengthen diplomatic options, and deny
+India opportunities.
+
+India and Pakistan have a deep history of conflicts which includes 4 wars (1947,
+1965, 1971, and 1999) due to deep hatred towards each other, which is
+exaggerated by the possession of nuclear weapon by both side. Indian strategy is
+to wait for Pakistan to collapse into several nations, whereas the latter acts
+more aggressively due to asymmetric power dynamics between them.

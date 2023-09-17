@@ -630,6 +630,10 @@ order to secure its water supply from the Indus River for its struggling
 industry amid deepen climate crisis, strengthen diplomatic options, and deny
 India opportunities.
 
+**Note**: Another reason for China to keep good relationship with Pakistan is to
+have access to the Iran-Pakistan and Caspitan oil piplines in order to secure
+its energy supply.
+
 India and Pakistan have a deep history of conflicts which includes 4 wars (1947,
 1965, 1971, and 1999) due to deep hatred towards each other, which is
 exaggerated by the possession of nuclear weapon by both side. Indian strategy is

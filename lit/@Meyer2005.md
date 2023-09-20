@@ -365,7 +365,7 @@ function declared as private.
 
 - [x] Item 32: Make sure public inheritance models "is-a"
 - [x] Item 39: Use private inheritance judiciously
-- [ ] Item 40: Use multiple inheritance judiciously
+- [x] Item 40: Use multiple inheritance judiciously
 
 # Item 32: Make sure public inheritance models "is-a"
 
@@ -400,3 +400,15 @@ virtual base class, and it only works under single inheritance.
 
 - [ ] Item 35: Consider alternatives to virtual functions
 - [ ] Item 50: Understand when it makes sense to replace `new` and `delete`
+
+# Item 40: Use multiple inheritance judiciously
+
+In multiple inheritance, overloaded functions are not examined based on its
+accessibility (public, private, or protected), but whether it is the best match.
+Therefore, it is unwise to inherit multiple classes that have the same function.
+We can disable this replication by implementing virtual base class. However,
+this comes with performance and space trades off. The author advises against the
+use of virtual base class unless it is necessary. If there is a case for that,
+don't put any data in it. A great use case of multiple inheritance is for
+defining interface via public inheritance, and implementation via private
+inheritance.

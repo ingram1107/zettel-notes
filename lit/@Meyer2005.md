@@ -277,7 +277,7 @@ A base class, that is class intended to be inherited, should have at least one
 virtual function (destructor). Avoid declaring all function as virtual
 unnecessarily.
 
-- [ ] Item 32: Make sure public inheritance models "is-a"
+- [x] Item 32: Make sure public inheritance models "is-a"
 - [ ] Item 36: Never redefine an inherited non-virtual function
 
 # Prevent exceptions from leaving destructors
@@ -364,7 +364,7 @@ function declared as private.
 **Note**: This seems to be replaced by the syntax sugar `delete`.
 
 - [x] Item 32: Make sure public inheritance models "is-a"
-- [ ] Item 39: Use private inheritance judiciously
+- [x] Item 39: Use private inheritance judiciously
 - [ ] Item 40: Use multiple inheritance judiciously
 
 # Item 32: Make sure public inheritance models "is-a"
@@ -376,5 +376,27 @@ However, there is a discrepancy between the real world categorisation and
 runtime error to indicate an object can't do something doesn't semantically mean
 that it can't do something, but it simply does it with the error output.
 
-- [ ] Item 39: Use private inheritance judiciously
-- [ ] Item 38: Model "has-a" or "is-implemented-in-terms-of" through composition
+- [x] Item 39: Use private inheritance judiciously
+- [x] Item 38: Model "has-a" or "is-implemented-in-terms-of" through composition
+
+# Item 38: Model "has-a" or "is-implemented-in-terms-of" through composition
+
+Composition has two meaning that applies on two domains which are application
+domains and implementation domains. In terms of implementation domains,
+composition actually means that something is implemented in terms of something
+else.
+
+# Item 39: Use private inheritance judiciously
+
+Private inheritance doesn't convert the derived class into the base class. It
+should be viewed as is-implemented-in-terms-of relationships in the hierarchy.
+The author suggests only to use private inheritance when there are only
+protected members and/or virtual functions. However, even in that case, we could
+use private nested class with public inheritance to avoid redefinition of the
+function from the derived children and minimise the compilation dependencies.
+The only edge case in which private inheritance seems useful is to prevent
+padding over empty class, as in no non-static data, virtual functions, and
+virtual base class, and it only works under single inheritance.
+
+- [ ] Item 35: Consider alternatives to virtual functions
+- [ ] Item 50: Understand when it makes sense to replace `new` and `delete`

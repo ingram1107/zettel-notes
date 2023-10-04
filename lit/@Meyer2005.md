@@ -169,8 +169,8 @@ Undefined behaviour might be resulted from the lack of virtual destructor if the
 class was not intended to be a base class or used polymorphically. In the case
 when the derived class is deleted through the pointer to the supposing base
 class with no virtual destructor, only the base class's part will be destroyed
-instead including the derived part of the class. This is what we called partial
-destroy, which can cause leak memory and corrupted #data-structure.
+instead of including the derived part of the class. This is what we called
+partial destroy, which can cause leak memory and corrupted #data-structure.
 
 If the class is intended to be use polymorphically, indicated by its virtual
 function(s), its destructor must be declared virtual in order to avoid the above
@@ -206,7 +206,7 @@ deleter for a particular object, pass in a custom deleter (a function that
 handle the object deletion) to the smart pointer constructor for the type is the
 best way to go.
 
-- [ ] Item 22: Declare data members `private`
+- [x] Item 22: Declare data members `private`
 - [x] Item 4: Make sure that objects are initialized before they're used
 - [x] Item 13: Use objects to manage resources
 - [x] Item 27: Minimize casting
@@ -278,7 +278,7 @@ virtual function (destructor). Avoid declaring all function as virtual
 unnecessarily.
 
 - [x] Item 32: Make sure public inheritance models "is-a"
-- [ ] Item 36: Never redefine an inherited non-virtual function
+- [x] Item 36: Never redefine an inherited non-virtual function
 
 # Prevent exceptions from leaving destructors
 
@@ -297,7 +297,7 @@ There are several considerations on copying behaviour in resource-managing
 classes, which are prohibiting copy, reference counting (smart pointer with
 custom deleter), deep copy, or ownership transfer.
 
-- [ ] Item 6: Explicitly disallow the use of compiler-generated functions you
+- [x] Item 6: Explicitly disallow the use of compiler-generated functions you
   do not want
 - [x] Item 5: Know what functions C++ silently writes and calls
 
@@ -412,3 +412,34 @@ use of virtual base class unless it is necessary. If there is a case for that,
 don't put any data in it. A great use case of multiple inheritance is for
 defining interface via public inheritance, and implementation via private
 inheritance.
+
+# Item 22: Declare data members `private`
+
+Declaring all data members as `private` and use function to access them with
+fine-grained control policy. Though not every data member needs getter or
+setter, it could be encapsulated into function which allow much implementation
+flexibility. Since only member function only affect the data member(s), the
+class invariant could be maintained from the client violation. Another case
+against `public` and `protected` data members is that they make things
+unchangeable as they will break code if changed (for `protected`, it changes all
+derived classes).
+
+- [ ] Item 23: Prefer non-member non-friend functions to member functions
+
+# Item 36: Never redefine an inherited non-virtual function
+
+The author advises a one guideline in designing a class, that is the same object
+must have the same behaviour regardless of the result of casting. In fact,
+non-virtual function should not be redefined in principle as it is statically
+bounded to its corresponding class and entirely depends on the type of the
+pointer's type declaration. Inherited non-virtual functions should be treated as
+invariants so that the objects, albeit the derived ones, will have the same
+behaviour. If that is not the case for such, one should use virtual function for
+it as it is dynamically bound, and not depends on the pointer's type
+declaration. This makes us rethink the [OOP](../202202041514.md) relationship of
+the object: if one object really needs to reimplement one of the non-virtual
+member function of another object, then it must not be in an "is-a" relationship
+with such object.
+
+- [ ] Item 33: Avoid hiding inherited names
+- [ ] Item 37: Never redefine a function's inherited default parameter value

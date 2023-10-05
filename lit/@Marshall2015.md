@@ -615,7 +615,23 @@ Pakistan, which were left with an agriculture base and culturally divided
 regions. Furthermore, it has a much larger population (1.3 billion) comparing to
 Pakistan (182 million) which allows it to become a rising economic power.
 Kashmir could be the window for India to Central Asia, and further deny Pakistan
-a border with a friendly China.
+a border with a friendly China. Although there are separatist movements within
+the boundaries such as Punjab Sikh movements, Bodo Assam independence movements,
+Islamic Assam independence movements, Christian Nagaland movements etc., they
+are too weak to be a threat to Indian national security concern. Its huge
+internal navigable waterways and rich of energies and arable land, making it a
+potential world power that could compete with China in international stage. If
+it is not for the insulator of the Himalayas, Sino-Indian relationship would be
+much tense. Adding to the fuel is that the hosting of the last Dalai Lama and
+Tibetan independence movements in India, picking the nerves of China's concern
+over potentially independent Tibet than could control height advantages over the
+Chinese Plains. The same could be said the same to the Indian over Nepal and
+Bhutan, as the Maoist movement gains significant progress in Nepal which is
+supported by Chinese government. For Bhutan, controlling the height of it could
+have command advantages over the narrow corridor of Siliguri that might cut off
+the communication lines between the Indian central government and its eastern
+provinces. To compete with China, India makes efforts to establish deep bounds
+with Myanmar, Thailand, Philippines, Japan, and US.
 
 Pakistan has to face its deeply entrenched ethnic issues, as it is composed by
 60% Punjabi, 14% Sindhi, 13.5% Pashtun, and 4.5% Baluchi. Sindhi population
@@ -628,11 +644,26 @@ so that its deep water capacity could circumvent possible blockage in the Strait
 of Malacca. The full control of Kashmir is the ultimate goal of Pakistan in
 order to secure its water supply from the Indus River for its struggling
 industry amid deepen climate crisis, strengthen diplomatic options, and deny
-India opportunities.
+India opportunities. Pakistan has little strategic depth, in fact, it has to
+either defends Punjab furiously or to fall back to Kabul in the assumption that
+there is a friendly Afghan government. Inter-Services Intelligence (ISI)
+supported Taliban during the Soviet-Afghan War and the later subsequent rose to
+power. However, Pakistani government was forced by US government to cut ties
+with its old ally in order to join in the War of Terror albeit only follow the
+Washington's orders half-heartedly. This resulted in an angered Taliban that
+felt betrayed by the Pakistani, and with most Pashtuns support to the
+organisation, it has some influences in the politics in Pakistan especially in
+the northwest frontier. Despite being ultimately defeated by the NATO, Taliban
+is playing a waiting game since it has support elements in Pakistan. The killing
+of bin Laden laid distrusts between the US and Pakistan military due to unshared
+intelligence. The US's withdrawal of Afghanistan will be a propaganda defeat.
 
 **Note**: Another reason for China to keep good relationship with Pakistan is to
-have access to the Iran-Pakistan and Caspitan oil piplines in order to secure
+have access to the Iran-Pakistan and Caspian oil pipelines in order to secure
 its energy supply.
+
+**Note**: In fact, Taliban has returned to be Afghanistan's government in 2022
+after disastrous withdrawal of US troops in the region.
 
 India and Pakistan have a deep history of conflicts which includes 4 wars (1947,
 1965, 1971, and 1999) due to deep hatred towards each other, which is

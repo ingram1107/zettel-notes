@@ -41,14 +41,31 @@ tactic-based movement.
 
 Instead of treating political struggle and economic struggle separately,
 revolutionaries, he argued, should work in close organic contact with the
-proletarian struggle. Therefore, we should not just confine yourself in exposing
+proletarian struggle, that is keeping up with the spontaneous movement with
+current political events, while being not afraid of ahead of the masses in
+theurgical theatre. Therefore, we should not just confine yourself in exposing
 the system, we have to react to the immediate and current interest of the
-proletariat. Abuses exposure is the start of awakening class consciousness, but
-it should not be the only way in which the revolutionaries should be active in.
-Political exposure is also critical for the cause of the revolution and
-political agitation should not be applied exclusively on basis of economy. The
-so-called "lending the economic struggles itself a political character" only
-aims to push legislative and administrative reforms, ultimately a reformism
-movement. This run to the danger in which the ruling class may win back working
-class's confidence by passing the reforms. Instead, revolutionaries should push
-for proletarian political demands at the same time.
+proletariat. The workers must learn to respond to all kinds of tyranny,
+oppression, violence, and abuses regardless of their affected classes. In other
+words, we have to learn from concrete to above all from topical political facts
+and events, and observed other class in intellectual, ethical, and political
+life. Not only that, we should practice the materialist analysis. This kind of
+guidance could only come from a well-organised party.
+
+Abuses exposure is the start of awakening class consciousness as it is an
+instrument for disintegrating the system, but it should not be the only way in
+which the revolutionaries should be active in. Political exposure is also
+critical for the cause of the revolution and political agitation should not be
+applied exclusively on basis of economy. The so-called "lending the economic
+struggles itself a political character" only aims to push legislative and
+administrative reforms, ultimately a reformism movement. In fact, such struggle
+with economic condition focus alone will not bring about the political
+consciousness. This run to the danger in which the ruling class may win back
+working class's confidence by passing the reforms. Instead, revolutionaries
+should push for proletarian immediate and revolutionary, complete political
+demands at the same time, even if it runs into pushing for liberal struggle. The
+organisation of comprehensive political exposure is the basic condition for the
+political agitation expansion.
+
+Workers are the first to learn the political knowledge, and the most capable
+forces of pushing the demands.

@@ -670,3 +670,20 @@ India and Pakistan have a deep history of conflicts which includes 4 wars (1947,
 exaggerated by the possession of nuclear weapon by both side. Indian strategy is
 to wait for Pakistan to collapse into several nations, whereas the latter acts
 more aggressively due to asymmetric power dynamics between them.
+
+## Korea and Japan
+
+Any action in Korean Peninsular will result in regional instability and quite
+possible catastrophe due to the regional complexity of their political
+atmosphere. Although the current 38th parallel, which is an arbitrary line,
+become the de facto border between the North and South Korean government, a more
+natural geographical division should be west-east division split by the Hamgyong
+mountain range. Seoul with its half of its national population are seriously
+under possible North Korean artillery range since they are only 35 miles or
+56.33 km from the demilitarised zone, not withstanding that the North could
+easily push into the capital due to the flatland features. Both US and China
+fears a unified Korea under the opposite's influence. For US, if it fails to
+come into the South Korea's defence, its reputation as a capable ally will come
+to be questioned. China doesn't want to see a unified Korea under US influence
+that could project their power over the Yalu River which threaten the Chinese
+territory.

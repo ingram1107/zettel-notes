@@ -424,7 +424,7 @@ against `public` and `protected` data members is that they make things
 unchangeable as they will break code if changed (for `protected`, it changes all
 derived classes).
 
-- [ ] Item 23: Prefer non-member non-friend functions to member functions
+- [x] Item 23: Prefer non-member non-friend functions to member functions
 
 # Item 36: Never redefine an inherited non-virtual function
 
@@ -443,3 +443,19 @@ with such object.
 
 - [ ] Item 33: Avoid hiding inherited names
 - [ ] Item 37: Never redefine a function's inherited default parameter value
+
+# Item 23: Prefer non-member non-friend functions to member function
+
+Member function that does interact with other member functions that manipulate
+data member(s) yield less encapsulation. Friend function has the same issue with
+member function as it can gain access to the private part of the class.
+Therefore, the author suggests non-member non-friend function as a replacement
+in order to increase the packaging flexibility for class functionality which
+yields fewer compilation dependencies and increase class extensibility. By such,
+we should decrease the number of function accessing the private part of the
+class. We can conclude that encapsulation is proportional to the class
+flexibility and extensibility.
+
+Another advice by Meyer is to split convenient functions into different headers
+with the same namespace so that the client can choose which to compile to
+without adding unnecessary dependencies.

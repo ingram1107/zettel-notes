@@ -93,7 +93,7 @@ public:
 }
 ```
 
-- [ ] Item 24: Declare non-member functions when type conversions should apply
+- [x] Item 24: Declare non-member functions when type conversions should apply
   to all parameters
 - [x] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
 - [x] Item 30: Understand the ins and outs of inlining
@@ -459,3 +459,11 @@ flexibility and extensibility.
 Another advice by Meyer is to split convenient functions into different headers
 with the same namespace so that the client can choose which to compile to
 without adding unnecessary dependencies.
+
+# Item 24: Declare non-member functions when type conversions should apply to all parameters
+
+If there is a need of type conversions on all parameters to a function, such
+function must be a non-member function. For examples, if a rational number,
+constructed as a class, must behave communicative in multiplication just like
+the primitive's counterpart, then a non-member operator function that includes
+type conversions parameters is the way to go.

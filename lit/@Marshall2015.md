@@ -687,3 +687,29 @@ come into the South Korea's defence, its reputation as a capable ally will come
 to be questioned. China doesn't want to see a unified Korea under US influence
 that could project their power over the Yalu River which threaten the Chinese
 territory.
+
+Japan is an island country composed of four major islands, Hokkaido (北海道),
+Honshu (本州), Kyushu (九州), and Shikoku (四国), and other 6,848 smaller ones
+including Ryukyu islands (琉球列島). It's been separated by the Sea of Japan,
+Sea of Okhotsk, and the Pacific Ocean. This unique geographical features avoid
+major invasion into the island throughout its existence including Mongolian
+Eastern Expedition and American World War II Island Hopping Operation. However,
+there is only 13% of the lands on the island are suitable for intensive
+cultivation due to its mostly mountainous terrains, resulted in most residents
+living in coastal plains or restricted inland valleys. The lack of flatland
+makes rivers unnavigable, in addition that major rivers are not connected. These
+features shape the Japanese into a maritime people. Due to the thirst for energy
+(natural gas and oil) and lack of quality material resources on the island, it
+leads to early expansionism that eventually lead to its defeat in World War II.
+Although the new constitution restricted the Japanese military capabilities, the
+newly rising right-wing government drafts several revisions on the constitution
+to remilitarised in order to counter the rise of China with the close
+cooperation with its American ally. This includes the building of aircraft
+carrier disguised as "helicopter-carrying destroyer" and the fierce exchanges in
+the territorial dispute in Senkaku (尖閣諸島) or Diaoyu islands (釣魚台列嶼) due
+to its energy potential and being a vital part of Ryukyu islands chain. Although
+Japan has claims over Kuril Islands owned by Russia in the north of Hokkaido, it
+doesn't serve much strategic importance in its regional defence strategy.
+Despite the territorial dispute with South Korea in Dokdo (독도) or Takeshima
+(竹島) island, they are united out of fear of the threats from North Korea and
+China.

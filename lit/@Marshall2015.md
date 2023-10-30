@@ -713,3 +713,38 @@ doesn't serve much strategic importance in its regional defence strategy.
 Despite the territorial dispute with South Korea in Dokdo (독도) or Takeshima
 (竹島) island, they are united out of fear of the threats from North Korea and
 China.
+
+## Latin America
+
+Most of the population in Latin America located near coast due to the similar
+problem that the Africa discussed before, that is due to the rain forest and
+malaria. The fail to invest the interior resulted in neglected conditions in
+which at most only the interior is connected to the coastal capital but not to
+each other. This issue is more obvious in South America as in the Central
+America the population is more equally distributed. It has limited natural deep
+harbours, thus limited trade opportunities for the Latin American. Mexico itself
+is facing obstacles as there are deserts in the north, mountains in the east,
+and jungles in the south. We could see the effect of serfdom on South America as
+the Latin America continues to lag behind to its northern counterpart and the
+Europe.
+
+Latin America is one of the theatre of the Cold War.
+
+Looking into the South America more closely, we could see that there are two
+significant geographical features: the 4,500 miles or 7,242 km impassible
+mountain range, the Andes, and the Southern Cone which is the lower third of the
+South America. The Andes provides rich hydroelectric power for Chile, Peru,
+Ecuador, Colombia, and Venezuela. Southern Cone on the other hand provides vast
+flatland to the east of the Andes with the help of temperate climate, which
+enables agricultural activities and reduces the construction costs, which in
+turns allow profitable business being put down in there. That being said, the
+southern countries still face their own problems. Brazil has a hard time on
+connecting its internal territories due to the barrier of the Amazon Rainforest.
+Chile and Argentina are rich of natural resources, but they are far further away
+from New York than to Paris and London. In addition, the naval arm race between
+Brazil, Chile, and Argentina hinder their economy growth. Bolivia lost 250 miles
+or 402 km of coastlines to Chile as a result of 1879 War of the Pacific, leaving
+grudges from the former to the latter in order to take back or exchange the
+coastline in order to export its world third-largest natural gas reserve to the
+world. However, there is a clear divide between the lowland (European settlers)
+and highland (indigenous people) demographic.

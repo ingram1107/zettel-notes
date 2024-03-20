@@ -845,3 +845,7 @@ finding a way of good life.
 Michael Walzer, a critic of communitarians, argued that if such moral view is to
 be accepted, justice itself can't be independent of the community, and instead
 is just a matter of faith to the shared understanding among the members.
+
+# Debating Same-Sex Marriage
+
+# The Good Life

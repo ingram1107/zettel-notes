@@ -1,0 +1,12 @@
+---
+tags: [lecture, current]
+---
+
+# TRT3241 Lecture 10: Memory
+
+- [Memory Heap](202407021026.md)
+- [Internal Fragmentation](202407021029.md)
+- [External Fragmentation](202407021030.md)
+- [Memory Compaction](202407021032.md)
+- [Fixed-Size Memory Management](202407021410.md)
+- [Memory Management Unit (MMU)](202407021419.md)

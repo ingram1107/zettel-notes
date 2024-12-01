@@ -606,9 +606,11 @@ lottery, they are entitled to be awarded. In contrast, if one win in a pure
 skill game, there is always the question on whether they morally deserve that
 prize.
 
-# Arguing Affirmative Action In the case of Hopwood vs. Texas, Cheryl Hopwood
-sued Texas Law School for rejecting her application due to affirmative action
-policy (to include minority groups) despite having a better grade.
+# Arguing Affirmative Action
+
+In the case of Hopwood vs. Texas, Cheryl Hopwood sued Texas Law School for
+rejecting her application due to affirmative action policy (to include minority
+groups) despite having a better grade.
 
 There are three main arguments to support Texas position: corrective,
 compensatory, and diversity. Corrective argument points out that current
@@ -849,3 +851,4 @@ is just a matter of faith to the shared understanding among the members.
 # Debating Same-Sex Marriage
 
 # The Good Life
+

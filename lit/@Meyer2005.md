@@ -97,7 +97,7 @@ public:
   to all parameters
 - [x] Item 18: Make interfaces easy to use correctly and hard to use incorrectly
 - [x] Item 30: Understand the ins and outs of inlining
-- [ ] Item 28: Avoid returning "handles" to object internals
+- [x] Item 28: Avoid returning "handles" to object internals
 - [x] Item 27: Minimize casting
 
 # Understand the ins and outs of inlining
@@ -116,7 +116,10 @@ advises only to use inline function whenever the function called is small and
 frequent. Library designer should avoid inline function in order to prevent
 binary recompilation on the client side.
 
-- [ ] Item 46: Define non-member functions inside templates when type
+Functions within class are also inlined by default. To avoid that, call a help
+function defined outside the scope of the class.
+
+- [x] Item 46: Define non-member functions inside templates when type
   conversions are desired
 - [ ] Item 44: Factor parameter-independent code out of templates
 - [ ] Item 53: Pay attention to compiler warnings
@@ -467,3 +470,45 @@ function must be a non-member function. For examples, if a rational number,
 constructed as a class, must behave communicative in multiplication just like
 the primitive's counterpart, then a non-member operator function that includes
 type conversions parameters is the way to go.
+
+- [x] Item 46: Define non-member functions inside templates when type
+  conversions are desired
+
+# Item 28: Avoid returning "handles" to object internals
+
+Handles are ways to get at other objects. This includes references, pointers,
+and iterators. Returning such handles from a member function, even within a
+`const` scope, runs the risk of exposing data member that was supposed to be
+protected or private. Quote "The data member is as encapsulated as the most
+accessible function that return function to it." from the authors. This means
+that the function caller can modify the value of the returned handle from
+`const` member function if it is stored outside the scope of the function. Even
+with specified `const` return modifier, it also runs the risk of possible
+dangling pointer at the end of the original handle's lifetime. The pointer
+points to the returned handle will dangle once the returned handle is destroyed.
+
+# Item 46: Define non-member functions inside templates when type conversions are desired
+
+Templatised function doesn't do implicit type conversion during template
+argument deduction. For that to happen, we have to declare non-member function
+as `friend` and define it inside the template. `friend` modifier allows
+non-member function to be defined inside a template, which in turns allow proper
+function instantiation.
+
+To minimise inlining, the function may call a helper function outside the
+template.
+
+# Item 44: Factor parameter-independent code out of templates
+
+Templates may lead to code bloat due to unnecessary duplication resulted from
+template parameters. We have to do **commonality and variability analysis** on
+the parameters, including non-type and type parameters. This can be done by
+factoring out the common parts (in this case the template parameters). For
+common non-type parameter(s), we factor it out to form a derived class and hide
+the templatised version from the public to ensure encapsulation. The main
+functionality will be defined in the base class where the derived class will
+redirect to it. For type parameter(s), we can share implementations for
+instatiation types with identical binary representation like `int` and `long`.
+
+Such approach comes with the tradeoffs of less optimisation opportunity for the
+compilers and increase overall size of each object.

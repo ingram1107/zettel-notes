@@ -501,14 +501,14 @@ template.
 # Item 44: Factor parameter-independent code out of templates
 
 Templates may lead to code bloat due to unnecessary duplication resulted from
-template parameters. We have to do **commonality and variability analysis** on
+template parameters. We have to do [commonality and variability analysis](202501031254.md) on
 the parameters, including non-type and type parameters. This can be done by
 factoring out the common parts (in this case the template parameters). For
 common non-type parameter(s), we factor it out to form a derived class and hide
 the templatised version from the public to ensure encapsulation. The main
 functionality will be defined in the base class where the derived class will
 redirect to it. For type parameter(s), we can share implementations for
-instatiation types with identical binary representation like `int` and `long`.
+instantiation types with identical binary representation like `int` and `long`.
 
 Such approach comes with the tradeoffs of less optimisation opportunity for the
 compilers and increase overall size of each object.

@@ -6,7 +6,7 @@ date: 2023-07-08 11:56
 tags: [literature, cpp, oop, functional-programming, metaprogramming]
 ---
 
-# View C++ as a federation of languages
+# Item 1: View C++ as a federation of languages
 
 [C++](../202302190651.md) should be treated as a combination or glues of different
 sublanguages that have different conventions. The author divided them into
@@ -17,7 +17,7 @@ with, different rules may apply.
 
 - [x] Item 20: Prefer pass-by-reference-to-`const` to pass-by-value
 
-# Prefer `const`s, `enum`s, and `inline`s to `#define`s
+# Item 2: Prefer `const`s, `enum`s, and `inline`s to `#define`s
 
 Use `const` and `enum` hack to replace simple constant that is otherwise defined
 by `#define` and [Inline Function](../202205171916.md) to replace
@@ -43,7 +43,7 @@ benefits gained from function-macro.
 - [x] Item 48: Be aware of template metaprogramming
 - [x] Item 30: Understand the ins and outs of inlining
 
-# Prefer pass-by-reference-to-`const` to pass-by-value
+# Item 20: Prefer pass-by-reference-to-`const` to pass-by-value
 
 Pass-by-value is an expensive operation especially for big objects that contain
 some information as the compiler will call a chain of copy constructors from
@@ -58,7 +58,7 @@ objects.
 
 - [x] Item 7: Declare destructors virtual in polymorphic base classes
 
-# Use `const` whenever possible
+# Item 3: Use `const` whenever possible
 
 The author strongly suggested the use of `const` keyword ranging on variables,
 function parameters, return types, and member functions as a whole. Especially
@@ -100,7 +100,7 @@ public:
 - [x] Item 28: Avoid returning "handles" to object internals
 - [x] Item 27: Minimize casting
 
-# Understand the ins and outs of inlining
+# Item 30: Understand the ins and outs of inlining
 
 Inline function could be declared implicitly by declaring the function inside
 the scope of class declaration or explicitly with the `inline` keyword. Although
@@ -124,7 +124,7 @@ function defined outside the scope of the class.
 - [ ] Item 44: Factor parameter-independent code out of templates
 - [ ] Item 53: Pay attention to compiler warnings
 
-# Use traits classes for information inside templates
+# Item 47: Use traits classes for information inside templates
 
 [Iterator](../202202241727.md) could be classified into *input iterator* (move
 forward only and read only), *output iterator* (move forward only and write
@@ -143,7 +143,7 @@ classes.
 
 - [ ] Item 54: Familiarize yourself with the standard library, including TR1
 
-# Be aware of template metaprogramming
+# Item 48: Be aware of template metaprogramming
 
 Template metaprogram is a program that executes inside a compiler that will
 output source code instantiated from the defined templates then further compile
@@ -166,7 +166,7 @@ implementation, which introduce policy-based design (generative programming).
 
 - [ ] Item 55: Familiarize yourself with Boost
 
-# Declare destructors virtual in polymorphic base classes
+# Item 7: Declare destructors virtual in polymorphic base classes
 
 Undefined behaviour might be resulted from the lack of virtual destructor if the
 class was not intended to be a base class or used polymorphically. In the case
@@ -193,7 +193,7 @@ manipulation of derived class types through base class interface.
 - [x] Item 34: Differentiate between inheritance of interface and inheritance of
   implementation
 
-# Make interfaces easy to use correctly and hard to use incorrectly
+# Item 18: Make interfaces easy to use correctly and hard to use incorrectly
 
 When designing an interface, we should consider possible clients' mistakes on
 using such interface. There are several ways to restrict the client in using the
@@ -215,7 +215,7 @@ best way to go.
 - [x] Item 27: Minimize casting
 - [x] Item 26: Postpone variable definitions as long as possible
 
-# Use objects to manage resources
+# Item 13: Use objects to manage resources
 
 Premature return or loop exit and exception could result in resource leak
 especially when we choose to manually manage the resources. The author suggests
@@ -231,7 +231,7 @@ either with smart pointers or custom one. This practice is called
   classes
 - [x] Item 15: Provide access to raw resources in resource-managing classes
 
-# Provide access to raw resources in resource-managing classes
+# Item 15: Provide access to raw resources in resource-managing classes
 
 The access to raw resources in resource-managing classes such as built-in smart
 pointers or custom types could be done either explicitly or implicitly. Meyers
@@ -241,7 +241,7 @@ conversion (`->`, `*`, `()`) by sacrificing the resource safety (possible
 dangling pointer). Depending on the clients need and interface consistency, we
 should choose between these two access methods wisely.
 
-# Minimize casting
+# Item 27: Minimize casting
 
 Prefer new style cast (`const_cast()`, `dynamic_cast()`, `reinterpret_cast()`,
 `static_cast()`) over old C cast since the compiler could diagnose the usage
@@ -262,7 +262,7 @@ perform the same operation.
   implementation
 
 
-# Differentiate between inheritance of interface and inheritance of implementation
+# Item 34: Differentiate between inheritance of interface and inheritance of implementation
 
 There are three ways to specify the type of inheritance should the subclass be
 inherited, i.e., with pure virtual function, simple virtual function, or
@@ -283,7 +283,7 @@ unnecessarily.
 - [x] Item 32: Make sure public inheritance models "is-a"
 - [x] Item 36: Never redefine an inherited non-virtual function
 
-# Prevent exceptions from leaving destructors
+# Item 8: Prevent exceptions from leaving destructors
 
 Within a [C++ Container](../202202241719.md), if two items inside it encountered
 exception inside their destructors, it will result in undefined behaviour.
@@ -294,7 +294,7 @@ resource-managing entity). Then, define a destructor from the resource handler
 to either terminate or swallow the exceptions coming from its scope as the
 default behaviour.
 
-# Think carefully about copying behavior in resource-managing classes
+# Item 14: Think carefully about copying behavior in resource-managing classes
 
 There are several considerations on copying behaviour in resource-managing
 classes, which are prohibiting copy, reference counting (smart pointer with
@@ -304,7 +304,7 @@ custom deleter), deep copy, or ownership transfer.
   do not want
 - [x] Item 5: Know what functions C++ silently writes and calls
 
-# Postpone variable definitions as long as possible
+# Item 26: Postpone variable definitions as long as possible
 
 Avoid unused variables and be especially cautious in the case of #exception. A
 better practice, argued by Meyer, is to postpone the variable until it is
@@ -312,7 +312,7 @@ necessary for it to be initialised with an argument. For loop, unless the
 assignment has less expensive constructor-destructor pair and we are dealing
 with performance issues, the variable should be defined inside the loop body.
 
-# Make sure that objects are initialized before they're used
+# Item 4: Make sure that objects are initialized before they're used
 
 For the C part of the C++, i.e., the built-in types, there is no initialisation
 guarantee from the language prior to the assignment. Note that initialisation
@@ -337,7 +337,7 @@ Meyer proposes that we could bypass such concern by manually invoke all
 reference-return functions during single-threaded start-up portion of the
 program.
 
-# Know what functions C++ silently writes and calls
+# Item 5: Know what functions C++ silently writes and calls
 
 A smart compiler will generate the codes for you as needed. For example, upon
 declaration, default constructor and destructor will be created by the compiler
@@ -501,7 +501,7 @@ template.
 # Item 44: Factor parameter-independent code out of templates
 
 Templates may lead to code bloat due to unnecessary duplication resulted from
-template parameters. We have to do [commonality and variability analysis](202501031254.md) on
+template parameters. We have to do [commonality and variability analysis](../202501031254.md) on
 the parameters, including non-type and type parameters. This can be done by
 factoring out the common parts (in this case the template parameters). For
 common non-type parameter(s), we factor it out to form a derived class and hide
@@ -512,3 +512,53 @@ instantiation types with identical binary representation like `int` and `long`.
 
 Such approach comes with the tradeoffs of less optimisation opportunity for the
 compilers and increase overall size of each object.
+
+# Item 35: Consider alternatives to virtual functions
+
+Meyers suggests replacing the use of virtual functions in the case of
+implementing different algorithms for different objects of a same class, as
+there are many design alternatives that offer better advantages and
+optimisations. It is said that if a function is not defined as pure virtual,
+then a default algorithm is expected.
+
+He insinuates non-virtual interface (NVI) idiom, [Strategy Pattern](../202302172008.md)
+via [Function Pointer](../202202142131.md), Strategy Pattern via
+`tr1::function`, or class [Strategy Pattern](../202302172008.md).
+
+- [ ] Item 41: Understand implicit interfaces and compile-time polymorphism
+- [ ] Item 54: Familiarize yourself with the standard library, including TR1
+
+# Item 50: Understand when it makes sense to replace `new` and `delete`
+
+There are several reasons to replace the compiler provided memory manager (`new`
+and `delete`) with a custom one:
+- To detect usage errors
+- To increase efficiency
+- To collect usage #statistics
+- To increase the speed of allocation and deallocation
+- To reduce the space overhead of the default memory management
+- To compensate for suboptimal alignment in the default allocator
+- To cluster related objects near one another, and
+- To obtain unconventional behaviour
+
+That being said, Meyers argues to not writing own custom memory manager unless
+it has to be done due to [Memory Alignment](../202203061200.md) caveats.
+Instead, the readers should opt for compiler's default memory manager, the
+commercial solutions, or open source memory manager like Boost's Pool library.
+Many compiler's memory manager provides debugging and logging functionalities.
+
+Meyers lists out several useful memory statistics, including distribution of
+allocated block sizes, distribution of allocated block's lifetimes, allocation
+order (FIFO/LIFO/close to random), change of usage pattern over time (allocation
+and deallocation patterns in different execution stages), and maximum amount of
+dynamically allocated memory in use.
+
+C++ require the function `new` to return pointers suitably aligned for **any
+data type**. If that is not the case, then program crash or slow performance is
+expected.
+
+- [ ] Item 51: Adhere to convention when writing `new` and `delete`
+
+# Item 51: Adhere to convention when writing `new` and `delete`
+
+# Item 54: Familiarize yourself with the standard library, including TR1

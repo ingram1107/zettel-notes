@@ -175,15 +175,16 @@ class with no virtual destructor, only the base class's part will be destroyed
 instead of including the derived part of the class. This is what we called
 partial destroy, which can cause leak memory and corrupted #data-structure.
 
-If the class is intended to be use polymorphically, indicated by its virtual
-function(s), its destructor must be declared virtual in order to avoid the above
-described situation. Another case that virtual destructor deem useful is when we
-want to create an abstract class but lacking any function to begin with. In such
-case, we can declare a pure virtual destructor for it.
+If the class is intended to be use polymorphically (derived class object pointed
+by base class object), indicated by its virtual function(s), its destructor must
+be declared virtual in order to avoid the above described situation. Another
+case that virtual destructor deem useful is when we want to create an abstract
+class but lacking any function to begin with. In such case, we can declare a
+pure virtual destructor for it.
 
-Though virtual destructor could protect user from resource leak, it comes with a
-great cost in size as there is a need of `vptr` and `vtbl` (array of function
-pointers) which may increase the object size ranging from 50% to 100%. This
+Although virtual destructor could protect user from resource leak, it comes with
+a great cost in size as there is a need of `vptr` and `vtbl` (array of function
+pointers) which may increase the object size ranging from 50% to 100%. The
 advised from the author is to only declare virtual destructor if the class is
 intended to be inherited and used polymorphically, as in there is a need of
 manipulation of derived class types through base class interface.
@@ -402,7 +403,7 @@ padding over empty class, as in no non-static data, virtual functions, and
 virtual base class, and it only works under single inheritance.
 
 - [ ] Item 35: Consider alternatives to virtual functions
-- [ ] Item 50: Understand when it makes sense to replace `new` and `delete`
+- [x] Item 50: Understand when it makes sense to replace `new` and `delete`
 
 # Item 40: Use multiple inheritance judiciously
 
@@ -523,7 +524,42 @@ then a default algorithm is expected.
 
 He insinuates non-virtual interface (NVI) idiom, [Strategy Pattern](../202302172008.md)
 via [Function Pointer](../202202142131.md), Strategy Pattern via
-`tr1::function`, or class [Strategy Pattern](../202302172008.md).
+`tr1::function`, or class [Strategy Pattern](../202302172008.md) as possible
+alternatives.
+
+NVI idiom can be used to realise [Template Method Pattern](../202306232036.md)
+by implementing invariant part of codes as public non-virtual function and
+putting other algorithm details into a private or protected (if it needs to
+invoke base class) virtual function. The non-virtual function will call the
+private virtual function for further execution logic. Derived class has to
+redefine the virtual functions for their own use case. An example of NVI idiom
+is shown below:
+
+```cpp
+class GameCharacter {
+public:
+    int healthValue() const
+    {
+        int retVal = doHealthValue();
+
+        return retVal;
+    }
+
+private:
+    virtual int doHealthValue() const { }
+};
+```
+
+One that in favour of Strategy pattern may argue that such function should not
+be part of the class as it is independent of it. Meyers demonstrates three
+approaches in his book: one via function pointer, one via `tr1::function`, and
+the classic implementation. All offers great flexibility on letting different
+instances from the same class to have different algorithms, and such algorithm
+can be changed at runtime. Both function pointer and classic implementation has
+no access to the internals as the function or class is no longer a member in the
+class hierarchy. Weakening the encapsulation (`friend` or getter) of the class
+may deem necessary in some cases. The `tr1::function` approach utilises function
+object.
 
 - [ ] Item 41: Understand implicit interfaces and compile-time polymorphism
 - [ ] Item 54: Familiarize yourself with the standard library, including TR1
@@ -540,6 +576,33 @@ and `delete`) with a custom one:
 - To compensate for suboptimal alignment in the default allocator
 - To cluster related objects near one another, and
 - To obtain unconventional behaviour
+
+A custom memory manager can be written in C++ as follows:
+
+```cpp
+static const int signature = 0x777B19AE;
+
+typedef unsigned char Byte;
+
+void* operator new(std::size_t size) throw(std::bad_alloc)
+{
+    using namespace std;
+
+    // The structure of an allocated memory should look like below:
+    //      Signature + Allocated memory space + Signature
+    //
+    size_t realSize = size + 2 * sizeof(int);
+    void *pMem = malloc(realSize);
+    if (!pMem) throw bad_alloc();
+
+    // write signature into the first and last part of the allocated memory
+    *(static_cast<int*>(pMem)) = signature;
+    *(reinterpret_cast<int*>(static_cast<Byte*>(pMem)+realSize-sizeof(int))) = signature;
+
+    return static_cast<Byte*>(pMem) + sizeof(int);
+    // Note: This example doesn't consider memory alignment optimisation
+}
+```
 
 That being said, Meyers argues to not writing own custom memory manager unless
 it has to be done due to [Memory Alignment](../202203061200.md) caveats.
@@ -561,4 +624,73 @@ expected.
 
 # Item 51: Adhere to convention when writing `new` and `delete`
 
+When writing a custom `new` operator, treat 0-byte memory request the same as
+1-byte memory request. Remember that all freestanding objects have non-0 size.
+`new` should contain an infinite loop trying to allocate memory, call
+new-handler if memory request is not satisfied, or otherwise throw `bad_alloc()`
+or exception if both fail. For class specific `new` operator, it must be able to
+handle block size that is larger than expected (than base class). This can be
+done via `new[]` operator for per-class basis to allocate chunk of memory. If
+that is not possible, Meyers suggests calling the standard `new` operator.
+
+The following shows an example of a `new` operator definition:
+
+```cpp
+void* operator new(std::size_t size) throw (std::bad_alloc)
+{
+    using namespace std;
+    if (size == 0) size = 1;
+
+    while (true) {
+        // allocatation algorithm
+
+        if (alloc_success)
+            return mem_ptr;
+
+        // Allocation was unseccuessful;
+        // The following algorithm finds out what the current new-handling
+        // function is;
+        new_handler globalHandler = set_new_handler(0);
+        set_new_handler(globalHandler);
+
+        if (globalHandler) (*globalHandler)();
+        // if handler is null, then throw
+        else throw std::bad_alloc();
+    }
+}
+```
+
+**Note**: In multithreaded environment, a lock is required to safely manage the
+data structures behind the new handling function.
+
+For `delete` operator, it is necessary for it to do nothing if the passed memory
+pointer is null. Like `new`, it should be able to handle larger than expected
+block size in class-specific scenario. There is a caveat that `size_t` may be
+incorrect if the base class lack virtual destructor. The solution is to simply
+add the `virtual` quantifier to the base class destructor.
+
+- [ ] Item 49: Understand the behavior of the new-handler
+- [ ] Item 52: Write placement `delete` if you write placement `new`
+- [ ] Item 16: Use the same form in corresponding uses of `new` and `delete`
+
 # Item 54: Familiarize yourself with the standard library, including TR1
+
+C++ standard library contains STL, Iostreams, support for internationalisation,
+support for numeric processing, exception hierarchy, and C89's standard library.
+
+C++ Technical Report 1 (`tr1`) extends the language (C++03) by including smart
+pointers, `function()`, `bind()`, hash tables (`unordered_set`,
+`unordered-multiset`, `unordered_map`, `unordered_multimap`), regular
+expression, `tuple`, `array`, `mem_fn`, `reference_wrapper`, better random
+number generator, mathematic special functions, C99 compatibility extensions,
+type traits, and `result_of`.
+
+`bind` works with `const` and non-`const` member function and by-reference
+parameter. It is capable of handling function pointers without helps.
+
+`mem_fn` provides a uniform way of adapting member function pointers.
+
+`reference_wrapper` makes references to act more like objects, and make it
+possible to create containers that act as if they are holding references.
+
+- [ ] Item 55: Familiarize yourself with Boost

@@ -524,7 +524,7 @@ then a default algorithm is expected.
 
 He insinuates non-virtual interface (NVI) idiom, [Strategy Pattern](../202302172008.md)
 via [Function Pointer](../202202142131.md), Strategy Pattern via
-`tr1::function`, or class [Strategy Pattern](../202302172008.md) as possible
+`std::function()`, or class [Strategy Pattern](../202302172008.md) as possible
 alternatives.
 
 NVI idiom can be used to realise [Template Method Pattern](../202306232036.md)
@@ -552,14 +552,88 @@ private:
 
 One that in favour of Strategy pattern may argue that such function should not
 be part of the class as it is independent of it. Meyers demonstrates three
-approaches in his book: one via function pointer, one via `tr1::function`, and
+approaches in his book: one via function pointer, one via `std::function`, and
 the classic implementation. All offers great flexibility on letting different
 instances from the same class to have different algorithms, and such algorithm
-can be changed at runtime. Both function pointer and classic implementation has
-no access to the internals as the function or class is no longer a member in the
-class hierarchy. Weakening the encapsulation (`friend` or getter) of the class
-may deem necessary in some cases. The `tr1::function` approach utilises function
-object.
+can be changed at runtime. They have no access to the internals as the function
+or class is no longer a member in the class hierarchy. Weakening the
+encapsulation (`friend` or getter) of the class may deem necessary in some
+cases. The `std::function` approach utilises function object combined with bind
+expression (`std::bind`) can result in great versatility. Furthermore, the
+created function object accepts any compatible function signature, that is, its
+return type and parameter type are implicitly convertible to their counterparts.
+
+The following codes show the implementation of function pointer approach:
+
+```cpp
+int defaultHealthCalc(const GameCharacter& gc);
+
+class GameCharacter {
+public:
+    typedef int (*HealthCalcFunc)(const GameCharacter&);
+
+    explicit GameCharacter(HealthCalcFunc hcf = defaultHealthCalc)
+    : healthFunc(fnc)
+    {}
+
+    int  healthValue() const {
+        return healthFunc(*this);
+    }
+
+private:
+    HealthCalcFunc healthFunc;
+};
+```
+
+The following codes show the implementation of `std::function()` approach:
+
+```cpp
+int defaultHealthCalc(const GameCharacter& gc);
+
+class GameCharacter {
+public:
+    typedef std::function<int (const GameCharacter&)> HealthCalcFunc;
+
+    explicit GameCharacter(HealthCalcFunc hcf = defaultHealthCalc)
+    : healthFunc(hcf)
+    {}
+
+    int  healthValue() const {
+        return healthFunc(*this);
+    }
+
+private:
+    HealthCalcFunc healthFunc;
+};
+```
+
+And last but not least, the implementation of the class Strategy pattern
+approach:
+
+```cpp
+class HealthCalcFunc {
+public:
+    virtual int calc(const GameCharacter& gc) const {
+        ...
+    }
+};
+
+HealthCalcFunc defaultHealthCalc;
+
+class GameCharacter {
+public:
+    explicit GameCharacter(HealthCalcFunc *phcf = &defaultHealthCalc)
+    : pHealthCalc(phcf)
+    {}
+
+    int healthValue() const {
+        return pHealthCalc->calc(*this);
+    }
+
+private:
+    HealthCalcFunc *pHealthCalc;
+}
+```
 
 - [ ] Item 41: Understand implicit interfaces and compile-time polymorphism
 - [ ] Item 54: Familiarize yourself with the standard library, including TR1
@@ -675,15 +749,16 @@ add the `virtual` quantifier to the base class destructor.
 
 # Item 54: Familiarize yourself with the standard library, including TR1
 
-C++ standard library contains STL, Iostreams, support for internationalisation,
-support for numeric processing, exception hierarchy, and C89's standard library.
+C++ standard library contains [STL](../202202241717.md), Iostreams, support for
+internationalisation, support for numeric processing, exception hierarchy, and
+C89's standard library.
 
 C++ Technical Report 1 (`tr1`) extends the language (C++03) by including smart
 pointers, `function()`, `bind()`, hash tables (`unordered_set`,
 `unordered-multiset`, `unordered_map`, `unordered_multimap`), regular
 expression, `tuple`, `array`, `mem_fn`, `reference_wrapper`, better random
 number generator, mathematic special functions, C99 compatibility extensions,
-type traits, and `result_of`.
+[type traits](../202204181611.md), and `result_of`.
 
 `bind` works with `const` and non-`const` member function and by-reference
 parameter. It is capable of handling function pointers without helps.

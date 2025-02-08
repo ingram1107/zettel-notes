@@ -122,7 +122,7 @@ function defined outside the scope of the class.
 - [x] Item 46: Define non-member functions inside templates when type
   conversions are desired
 - [ ] Item 44: Factor parameter-independent code out of templates
-- [ ] Item 53: Pay attention to compiler warnings
+- [x] Item 53: Pay attention to compiler warnings
 
 # Item 47: Use traits classes for information inside templates
 
@@ -141,7 +141,7 @@ templates that differ in trait, in which we can create master function or
 function template that calls workers, passing information provided by traits
 classes.
 
-- [ ] Item 54: Familiarize yourself with the standard library, including TR1
+- [x] Item 54: Familiarize yourself with the standard library, including TR1
 
 # Item 48: Be aware of template metaprogramming
 
@@ -636,7 +636,7 @@ private:
 ```
 
 - [ ] Item 41: Understand implicit interfaces and compile-time polymorphism
-- [ ] Item 54: Familiarize yourself with the standard library, including TR1
+- [x] Item 54: Familiarize yourself with the standard library, including TR1
 
 # Item 50: Understand when it makes sense to replace `new` and `delete`
 
@@ -694,7 +694,7 @@ C++ require the function `new` to return pointers suitably aligned for **any
 data type**. If that is not the case, then program crash or slow performance is
 expected.
 
-- [ ] Item 51: Adhere to convention when writing `new` and `delete`
+- [x] Item 51: Adhere to convention when writing `new` and `delete`
 
 # Item 51: Adhere to convention when writing `new` and `delete`
 
@@ -743,7 +743,7 @@ block size in class-specific scenario. There is a caveat that `size_t` may be
 incorrect if the base class lack virtual destructor. The solution is to simply
 add the `virtual` quantifier to the base class destructor.
 
-- [ ] Item 49: Understand the behavior of the new-handler
+- [x] Item 49: Understand the behavior of the new-handler
 - [ ] Item 52: Write placement `delete` if you write placement `new`
 - [ ] Item 16: Use the same form in corresponding uses of `new` and `delete`
 
@@ -769,3 +769,134 @@ parameter. It is capable of handling function pointers without helps.
 possible to create containers that act as if they are holding references.
 
 - [ ] Item 55: Familiarize yourself with Boost
+
+# Item 53: Pay attention to compiler warnings
+
+Unless you are experience in compiler warnings, take them seriously and strive
+for warning-free program at maximum warning level. Since compiler implementation
+may vary, it is advised to not solely depend on one particular compiler.
+
+- [ ] Item 33: Avoid hiding inherited names
+
+# Item 49: Understand the behavior of the new-handler
+New-handler, as defined by Meyers, is a client-specifiable error-handling
+function. It is called by `new` operator before it throws a memory exception. We
+can set a global new-handler via the function `set_new_handler` with a parameter
+of type `std::new_handler` (a function object of type `void* ()`). If `new` is
+unable to fulfil the memory request, it will call the new-handler function
+repeatedly until there is enough memory.
+
+A well-designed new-handler should either make more memory available, install a
+different new-handler (by calling `set_new_handler()`), uninstalled the
+new-handler (by passing a null pointer to `set_new_handler()`), throw an
+exception (of `bad_alloc` or types derived from it), or not return (with
+`abort()` or `exit()`).
+
+**Note**: One strategy to make more memory available is by allocating a large
+block of memory at the program's start-up, then release it for use in the
+program the first time the new-handler is invoked.
+
+**Note**: New-handler's behaviour can be changed via modification of static,
+namespace-specific, or global data that affects the behaviour.
+
+We may define `set_new_handler` implementation inside a class to provide a
+specialised new-handler for instantiated objects. In this way, the class version
+of the new-handler will be used instead of the global new-handler, guarantee by
+the class's `new` operator. Next, we have to implement the class's `new`
+operator. Combining with [RAII](../202202012306.md) practice, we can implement
+the class as follows:
+
+```cpp
+class NewHandlerHolder {
+public:
+    explicit NewHandlerHolder(std::new_handler nh)
+    : handler(nh) {}
+
+    ~NewHandlerHolder() {
+        std::set_new_handler(handler);
+    }
+
+    // Disable copy constructors
+    NewHandlerHolder(const NewHandlerHolder&) = delete;
+    NewHandlerHolder& operator=(const NewHandlerHolder&) = delete;
+
+private:
+    std::new_handler handler;
+};
+
+class Window {
+public:
+    static std::new_handler set_new_handler(std::new_handler p) throw();
+    static void* operator new *std::size_t size) throw(std::bad_alloc);
+
+private:
+    static std::new_handler currentHandler; // must be static
+};
+
+std::new_handler Window::currentHandler = nullptr;
+
+std::new_handler Window::set_new_handler(std::new_handler p) throw()
+{
+    std::new_handler oldHandler = currentHandler;
+    currentHandler = p;
+    return oldHandler;
+}
+
+void* Window::operator new(std::size_t size) throw(std::bad_alloc)
+{
+    NewHandlerHolder h(std::set_new_handler(currentHandler));
+
+    return ::operator new(size);
+}   // at here restore global new-handler
+```
+
+If template is supported, Meyers suggests making a [mixin-style class](202502090014.md) with the
+help of templatised inheritance, that is, *current recurring template pattern
+(CRTP)*, or in author's word, "Do It For Me". Though, be warry that this would
+lead to multiple inheritance. The following codes show how such implementation
+can be done:
+
+```cpp
+template<typename T>
+class NewHandlerSupport {
+public:
+    static std::new_handler set_new_handler(std::new_handler p) throw();
+    static void* operator new(std::size_t size) throw(std::bad_alloc);
+
+private:
+    static std::new_handler currentHandler;
+}
+
+template<typename T>
+std::new_handler NewHandlerSupport<T>::currentHandler = nullptr;
+
+template<typename T>
+std::new_handler NewHandlerSupport<T>::set_new_handler(std::new_handler p) throw()
+{
+    std::new_handler oldHandler = currentHandler;
+    currentHandler = p;
+    return oldHandler;
+}
+
+template<typename T>
+void* NewHandlerSupport<T>::operator new(std::size_t size) throw(std::bad_alloc)
+{
+    NewHandlerHolder h(std::set_new_handler(currentHandler));
+
+    return ::operator new(size);
+}   // at here restore global new-handler
+
+class Window: public NewHandlerSupport<Widget> {
+    // The class inherits all new-handler operations for NewHandlerSupport
+};
+```
+
+**Note**: The template parameter `T` is used as a hint for the compiler to
+generate separate new-handler for each derived class.
+
+- [ ] Item 29: Strive for exception-safe code
+- [ ] Item 52: Write placement `delete` if you write placement `new`
+
+# Item 52: Write placement `delete` if you write placement `new`
+
+# Item 29: Strive for exception-safe code

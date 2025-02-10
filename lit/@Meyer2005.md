@@ -402,7 +402,7 @@ The only edge case in which private inheritance seems useful is to prevent
 padding over empty class, as in no non-static data, virtual functions, and
 virtual base class, and it only works under single inheritance.
 
-- [ ] Item 35: Consider alternatives to virtual functions
+- [x] Item 35: Consider alternatives to virtual functions
 - [x] Item 50: Understand when it makes sense to replace `new` and `delete`
 
 # Item 40: Use multiple inheritance judiciously
@@ -744,7 +744,7 @@ incorrect if the base class lack virtual destructor. The solution is to simply
 add the `virtual` quantifier to the base class destructor.
 
 - [x] Item 49: Understand the behavior of the new-handler
-- [ ] Item 52: Write placement `delete` if you write placement `new`
+- [x] Item 52: Write placement `delete` if you write placement `new`
 - [ ] Item 16: Use the same form in corresponding uses of `new` and `delete`
 
 # Item 54: Familiarize yourself with the standard library, including TR1
@@ -895,8 +895,166 @@ class Window: public NewHandlerSupport<Widget> {
 generate separate new-handler for each derived class.
 
 - [ ] Item 29: Strive for exception-safe code
-- [ ] Item 52: Write placement `delete` if you write placement `new`
+- [x] Item 52: Write placement `delete` if you write placement `new`
 
 # Item 52: Write placement `delete` if you write placement `new`
 
+A resource is allocated in two phases. First, `new` allocates the memory for the
+object. Then, the class constructor initialised the object accordingly. This
+will give rise to problems when class construction was failed, as memory
+allocation must be undone to prevent memory leak. It is C++ runtime's
+responsibility to perform such task.
+
+Meyers defines placement `new` as a `new` operator that takes extra parameter
+other than `size_t`. A classic use of placement `new`, as defined in `<new>`
+library, is to specify where to construct the resource. The following codes show
+the declaration of the class placement `new` as an example for defining a custom
+placement `new`:
+
+```cpp
+// normal new
+void* operator new(std::size_t size) throw(std::bad_alloc);
+
+// classic placment new
+void* operator new(std::size_t size, void* pMemory) throw();
+
+// calling placement new
+... = new (ptr) Class;
+```
+
+Placement `delete`, i.e., `delete` that take the same type of extra parameter in
+`new`, is needed to prevent resource leak in the case when a class was managed
+by placement `new` and failed to be constructed. The thing is, C++ runtime will
+not call `delete`, even the normal or standard one, if it cannot find the
+corresponding placement `delete`. After defining placement `delete`, the class
+shall also define its own normal `delete` to avoid resource leak in the case
+when no exception was raised. To summarise, if placement `new` is defined, both
+version of `delete`, normal and placement, must be defined too.
+
+```cpp
+// normal delete
+void operator delete(void* rawMemory) throw();
+
+// classic placment delete
+void operator delete(void* rawMemory, void* pMemory) throw();
+
+// normal delete for classes
+void operator delete(void* rawMemory, std::size_t size) throw();
+
+// class placement new
+static void* operator Window::new(std::size_t size, std::ostream& logStream)
+throw(std::bad_alloc);
+
+// class placement delete
+static void operator Window::delete(void* rawMemory, std::ostream& logStream)
+throw();
+```
+
+Note that when class-specific `new` operator is defined, placement or not, it
+will hide all other global `new` operators. Similarly, if derived class defines
+its own `new` operator, the one inherited from the base class will be hidden
+too. To simplify the implementation, Meyers suggests using a base class to
+contain all forms of `new` and `delete` and pass them down to those class that
+wants their own placement `new`. The example class is shown as below:
+
+```cpp
+class StandardNewDeleteFroms {
+public:
+    // normal
+    static void* operator new(std::size_t size) throw(std::bad_alloc) {
+        return ::operator new(size);
+    }
+    static void operator delete(void* rawMemory) throw() {
+        ::operator delete(rawMemory);
+    }
+
+    // placement
+    static void* operator new(std::size_t size, void* ptr) throw() {
+        return ::operator new(size, ptr);
+    }
+    static void operator delete(void* rawMemory, void* ptr) throw() {
+        ::operator delete(rawMemory, ptr);
+    }
+
+    // nothrow
+    static void* operator new(std::size_t size, const std::nothrow_t& nt) throw() {
+        return ::operator new(size, nt);
+    }
+    static void operator delete(void* rawMemory, const std::nothrow_t&) throw() {
+        ::operator delete(rawMemory);
+    }
+};
+
+// class that defines its own placement new
+class Window: public StandardNewDeleteFroms {
+public:
+    using StandardNewDeleteFroms::operator new;
+    using StandardNewDeleteFroms::operator delete;
+
+    ...
+}
+```
+
+- [ ] Item 16: Use the same form in corresponding uses of `new` and `delete`
+- [ ] Item 17: Store `new`ed objects in smart pointers in standalone statements
+- [ ] Item 33: Avoid hiding inherited names
+
 # Item 29: Strive for exception-safe code
+
+An exception-safe function leak no resources and don't allow data structure to
+be corrupted. It could offer either *basic*, *strong*, or *nothrow* guarantee.
+
+Function with basic exception-safety guarantees that program will remain in
+(any) valid state, i.e., there will be no corrupted data and objects are in
+internally consistent state.
+
+Those that with strong guarantee promises that the program state remain
+unchanged when an exception was thrown. The program is either in an expected
+state after successful execution or return to its previous state. We can say
+that such function is atomic. It is generally preferred to have
+strong-guaranteed function.
+
+Nothrow guarantee is the strongest exception-safety guarantee among the threes.
+It means that the function will never throw an exception, and it does what it
+said. All C++ built-in types promise nothrow.
+
+**Note**: The exception-safety is determined by the function's implementation,
+not its declaration.
+
+**Note**: Function's parameter(s) can also affect its exception-safety
+guarantee. [RAII](../202202012306.md) class can be used to contain them.
+
+**Note**: `throw()` declaration does mean that the function will not throw an
+exception. It declares, instead, that the function could indicate serious
+errors, and they should be managed by `unexpected` class (`unexpected()`
+function, recommended in the book, has since deprecated in C++11).
+
+It is advised to change indicator only after it is certain that something has
+happen and use [RAII](../202202012306.md) classes (like smart pointers) to
+manage resources. To further strengthen the *strong* guarantee, we can utilise
+copy-and-swap by implementing pimpl idiom (Handler class), that is, putting
+per-object data from the real object into separate implementation where the
+latter points to it.
+
+There are some limitations or considerations when one is to design a strong
+exception-safety guarantee function. The function(s) with weaker guarantee can
+compromise the exception-safety of the entire system unless the exceptions are
+carefully and thoroughly handled. In Meyers' word, "A function can usually offer
+a guarantee no stronger than the weakest guarantee of the functions it calls".
+Other one is the possible **side effects** on non-local data. Furthermore,
+strong guarantee comes with the cost in efficiency or complexity, in which we
+may have to retreat to provide a basic guarantee instead.
+
+A lot of C++ legacy codes are not exception safe.
+
+It is wise to document the exception-safety of each function and the reason
+behind such decision for client and future maintenance.
+
+- [ ] Item 25: Consider support for a non-throwing `swap`
+- [ ] Item 31: Minimize compilation dependencies between files
+
+# Item 31: Minimize compilation dependencies between files
+
+# Item 16: Use the same form in corresponding uses of `new` and `delete`
+
+# Item 17: Store `new`ed objects in smart pointers in standalone statements

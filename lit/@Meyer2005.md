@@ -779,6 +779,7 @@ may vary, it is advised to not solely depend on one particular compiler.
 - [ ] Item 33: Avoid hiding inherited names
 
 # Item 49: Understand the behavior of the new-handler
+
 New-handler, as defined by Meyers, is a client-specifiable error-handling
 function. It is called by `new` operator before it throws a memory exception. We
 can set a global new-handler via the function `set_new_handler` with a parameter
@@ -850,11 +851,11 @@ void* Window::operator new(std::size_t size) throw(std::bad_alloc)
 }   // at here restore global new-handler
 ```
 
-If template is supported, Meyers suggests making a [mixin-style class](202502090014.md) with the
-help of templatised inheritance, that is, *current recurring template pattern
-(CRTP)*, or in author's word, "Do It For Me". Though, be warry that this would
-lead to multiple inheritance. The following codes show how such implementation
-can be done:
+If template is supported, Meyers suggests making a [mixin-style class](../202502090014.md)
+with the help of templatised inheritance, that is, *current recurring template
+pattern (CRTP)*, or in author's word, "Do It For Me". Though, be wary that this
+would lead to multiple inheritance. The following codes show how such
+implementation can be done:
 
 ```cpp
 template<typename T>
@@ -1024,13 +1025,13 @@ not its declaration.
 **Note**: Function's parameter(s) can also affect its exception-safety
 guarantee. [RAII](../202202012306.md) class can be used to contain them.
 
-**Note**: `throw()` declaration does mean that the function will not throw an
+**Note**: `throw()` declaration doesn't mean that the function will not throw an
 exception. It declares, instead, that the function could indicate serious
 errors, and they should be managed by `unexpected` class (`unexpected()`
 function, recommended in the book, has since deprecated in C++11).
 
 It is advised to change indicator only after it is certain that something has
-happen and use [RAII](../202202012306.md) classes (like smart pointers) to
+happened and use [RAII](../202202012306.md) classes (like smart pointers) to
 manage resources. To further strengthen the *strong* guarantee, we can utilise
 copy-and-swap by implementing pimpl idiom (Handler class), that is, putting
 per-object data from the real object into separate implementation where the

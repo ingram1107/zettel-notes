@@ -104,6 +104,43 @@ critiques on their excessive formalism, which resulted in over-complicated
 manoeuvres, and excessive reliance upon the ordre mince (thin line). (Quimby,
 The Background of Napoleonic Warfare, pg 208-209)
 
+Mesnil-Durand later accepted PoV and conceded by arguing that some form of
+actions has to be performed before closing up to enemy formation. He advocated
+the deployment of skirmishers since they were more accurate and offered a
+difficult target. (Quimby, The Background of Napoleonic Warfare, pg 211)
+However, he introduced nationalism to the debate by declaring ordre mince
+Prussian and ordre profond (thick line) French.
+
+The Camp of Vassuienx, conducted by Marshal Victor François de Broglie, exposed
+the weaknesses of Mesnil-Durand's and Pirch's systems. Majority of French
+military from that point decided to seek for a middle ground between
+Mesnil-Durand's and Pirch's position. (Quimby, The Background of Napoleonic
+Warfare, pg 244)
+
+**Comte de Guibert** devised a system of tactics which later became the basis of
+the Ordinance of 1791, which became the basis for French military training for
+40 years. (Quimby, The Background of Napoleonic Warfare, pg 106) He argued that
+infantry should be trained in both fire and shock actions, but the manual of
+arms must be reduced to only 4 manoeuvres. He insisted on simplicity and
+essentials. He introduced fire training and bayonet fencing instead of drilling,
+the first among his European peers. (Quimby, The Background of Napoleonic
+Warfare, pg 114-115) Guibert envisioned a multipurpose infantry that was able to
+perform both line or column order. (Ross, From Flintlock ot Rifle, pg 35) He
+argued that deep ranks have limited effect on the form of shock, and pointed out
+that line formation can also deliver shock with comparable effectiveness.
+Guibert argued that infantry has to establish fire superiority to preserved
+itself to prevent from destruction or disorder before come in contact with the
+enemy. Thus, fire order has to be the primary action. (Quimby, The Background of
+Napoleonic Warfare, pg 115)
+
+**My Note**: His father taught some military basics to Guibert and later take
+him out on reconnaissances to develop young Guibert's judgment and recognition
+of the military features of topography. Guibert was taught by his father when he
+was young to raise objections and use his imagination during war game. After the
+war game, they would discuss reason for what had done. His father would
+encourage questions and disagreement during the discussion. (Quimby, The
+Background of Napoleonic Warfare, pg 107)
+
 # Calvary and Their Tactics
 
 # Artillery and Their Tactics
